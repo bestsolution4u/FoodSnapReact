@@ -1,0 +1,1501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* SnapfoodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SnapfoodTests.m */; };
+		0418BAB9888C41079C1AD082 /* category.png in Resources */ = {isa = PBXBuildFile; fileRef = B829CD1FFB284CB189A0A2CE /* category.png */; };
+		045174F0C5E344FAB6EE28F6 /* fork.png in Resources */ = {isa = PBXBuildFile; fileRef = DE11CE15386F4084A322196A /* fork.png */; };
+		0533B9A507704A6998BE411B /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 390F8E15AA7442659F280D88 /* plus.png */; };
+		078EB045DA43406DAF8C4DA1 /* time-new-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 807C8E62D48943C7A407A723 /* time-new-small.png */; };
+		0B217A3A7B5543B7B88A6202 /* waiting.png in Resources */ = {isa = PBXBuildFile; fileRef = C0D30BAA62B440B0A4D26EED /* waiting.png */; };
+		0C6C0813B9DD417FBFAA1A13 /* distance.png in Resources */ = {isa = PBXBuildFile; fileRef = F322937CF1F642899FC5E8D7 /* distance.png */; };
+		0CA19778767942D1BF619CC7 /* dilni.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DFC3A0D11ED4B34B83924E8 /* dilni.png */; };
+		0D8B2AF0B9504406A0D6F432 /* searchactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CB2E4B4C2834A5EB0AA8B8A /* searchactive.png */; };
+		0E8EA95CAB6E44EAC7FB3227 /* libPods-Snapfood.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C3196A3FFE99D5E534A109 /* libPods-Snapfood.a */; };
+		0EC06C59FF91425DB5230D6F /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 86E3B1AC61124710910505EE /* share.png */; };
+		11BC0AA160584063855CE09D /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = E395EA78B1BD49459719917C /* cart.png */; };
+		11CBC645953E4068B321D59C /* active_chat_ic.png in Resources */ = {isa = PBXBuildFile; fileRef = 7381ED35F58541E592EFA2E4 /* active_chat_ic.png */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		13BEEC0DF3A94C23BEF4B43C /* llogaria-juaj.png in Resources */ = {isa = PBXBuildFile; fileRef = 419BF1B1C97244418B7E07F8 /* llogaria-juaj.png */; };
+		176BA9498FCF9929B194FC26 /* libPods-Snapfood-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB2D7CBFD19434A8C59D6C2 /* libPods-Snapfood-tvOS.a */; };
+		1BE65E2220414F138F58207E /* adresat-not-primary.png in Resources */ = {isa = PBXBuildFile; fileRef = AA98CA503ACA464E91BB9F4B /* adresat-not-primary.png */; };
+		1C29EE517B364409970676BE /* cmimi.png in Resources */ = {isa = PBXBuildFile; fileRef = 121DD0A6AE444AB891E01D9D /* cmimi.png */; };
+		1E739FFB2F244AC09B9EEC09 /* arrow_right.png in Resources */ = {isa = PBXBuildFile; fileRef = CDFE4DF701FC4C9ABF932CFE /* arrow_right.png */; };
+		21FCEB88A8524C68AFDEB721 /* vgoodactive.png in Resources */ = {isa = PBXBuildFile; fileRef = F131A464222349ED8FFBADCD /* vgoodactive.png */; };
+		233F80DA2B124F119BB3542F /* badactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3B44E636B74110BF87BB5B /* badactive.png */; };
+		24FA058E4A014EF9B733CFF6 /* attach.png in Resources */ = {isa = PBXBuildFile; fileRef = AF39EF01BD4841329EEBD4FA /* attach.png */; };
+		25418C84561145E49CCD8D93 /* SanFranciscoDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 81E2670537FD4C03BF9A029C /* SanFranciscoDisplay-Bold.otf */; };
+		25A51EB247E548F2B4578F1D /* favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = B8D0A4CFFA6044A2BBC29911 /* favorite.png */; };
+		265672B7FBE84BDFB024102A /* minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8B1C7B4AEE4DEE98A9C277 /* minus.png */; };
+		2C2DBF3D752A48BA942C101A /* custom_marker_location.png in Resources */ = {isa = PBXBuildFile; fileRef = BFE9BA10C7CF49B290B3B685 /* custom_marker_location.png */; };
+		2CBD8164EE2EE2AF3568B157 /* libPods-Snapfood-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66FA0830F0873EAE87761EBF /* libPods-Snapfood-tvOSTests.a */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* SnapfoodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SnapfoodTests.m */; };
+		2DD10591435B4FAD9350E6C3 /* white_info.png in Resources */ = {isa = PBXBuildFile; fileRef = A397E0DFC84448CA9262A315 /* white_info.png */; };
+		2E9C9FA1E2CF41C984511841 /* good.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B6A7441A2F94F258D91140C /* good.png */; };
+		2F466199E3EF4740BC304B67 /* leave_restaurant.png in Resources */ = {isa = PBXBuildFile; fileRef = 4554816203104924B99810D0 /* leave_restaurant.png */; };
+		322E7F10A37B4FD999D0EF62 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 3361F8CD3094487F880F558C /* star.png */; };
+		32CB8681466A4F3C9B5FC3A4 /* motori-3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEBEFAE4C4A74C19A9F48582 /* motori-3x.png */; };
+		34B45474D0BD48F1B41A3701 /* canceled.png in Resources */ = {isa = PBXBuildFile; fileRef = 49FAFD8E1BE2468094DEB23D /* canceled.png */; };
+		39B15D856068430FA10054A0 /* SanFranciscoDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 233C30F72DA244C7A2108AE7 /* SanFranciscoDisplay-Regular.otf */; };
+		39C368726A1944E2B8F8C879 /* logoop.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C2F7B67521C4BC693AAE2BD /* logoop.png */; };
+		39E9117F933C4860A5752F3A /* login_splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 039D6608C24F4B89BD0E3A67 /* login_splash.jpg */; };
+		3AC639EA3A2947D692C3995C /* filter.png in Resources */ = {isa = PBXBuildFile; fileRef = 9814CB2F63E74EAD9396565C /* filter.png */; };
+		3B8B742B3FCF447CB85E952C /* rotate.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E610FB108E84D398FA03289 /* rotate.png */; };
+		402AF33D8D854965ADD34C5A /* delivering.png in Resources */ = {isa = PBXBuildFile; fileRef = 78C2B1B1F1744ADC80038A28 /* delivering.png */; };
+		42403807259770AE2C7A0C02 /* libPods-SnapfoodTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E562819225DF45010BC479FF /* libPods-SnapfoodTests.a */; };
+		438AF2A61DC844719A970B93 /* fontello.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45663C79C86448B5ABBDA6CA /* fontello.ttf */; };
+		461E71590796416B84D2EE98 /* motori.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D8E5248EE9493CA7DE734A /* motori.png */; };
+		499CDE4FAD4348B4A31154A7 /* sad.png in Resources */ = {isa = PBXBuildFile; fileRef = C0F5077B775C48499F3B18CA /* sad.png */; };
+		4A2057FF84B241A0BD1970AE /* neutralactive.png in Resources */ = {isa = PBXBuildFile; fileRef = CE99989F567746EFB4312A2D /* neutralactive.png */; };
+		4BE7EB4546EA44938A8B8155 /* location_address_search.png in Resources */ = {isa = PBXBuildFile; fileRef = 863A86DD98BF4C6A9C525820 /* location_address_search.png */; };
+		4D9C5839E5FB4210B0977809 /* heartinactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC2947CAE784975BC3D6097 /* heartinactive.png */; };
+		4E533F8A745447389CBFC9C9 /* mobile.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FA6E376DCF345DDAB15DD14 /* mobile.png */; };
+		4EC7A8752DD444C8B8D8E028 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = C5630402AB88445EBB7D1327 /* profile.png */; };
+		4F29D05F6E3F4EEABE8268F1 /* instruksione.png in Resources */ = {isa = PBXBuildFile; fileRef = 1109EB269A1945F1BCFCE1C9 /* instruksione.png */; };
+		4F33F184A32B49F58EF440B4 /* location_address_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D617513FB33142879E94B8C9 /* location_address_icon.png */; };
+		51BEABC6983246928AEB1CB3 /* white_share.png in Resources */ = {isa = PBXBuildFile; fileRef = 0595E0569B3F4CF3983696B3 /* white_share.png */; };
+		5951F9A684BD4E9DA443D06A /* arrow_faceup.png in Resources */ = {isa = PBXBuildFile; fileRef = 8749AF3AF6784553BA32CD39 /* arrow_faceup.png */; };
+		5B7A6487CB864047AD3D3218 /* okinactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A1650DD23E64E739133CE33 /* okinactive.png */; };
+		5C7997F9F4314C73AF772935 /* ope_menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED21783A98B4B069262CBAA /* ope_menu.png */; };
+		5D1F07C7A37F4E9D8A9419B1 /* review.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA6127329004218B7BA8572 /* review.png */; };
+		5F9D30FA335C46D19256BE29 /* close_modal.png in Resources */ = {isa = PBXBuildFile; fileRef = 69521840AE61431CA9A62D45 /* close_modal.png */; };
+		5FCAD80636A140CCA861724E /* done.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F5969F4AF44ACBBFFEE589 /* done.png */; };
+		5FFE56EC442E4B00B89C0D01 /* promocione.png in Resources */ = {isa = PBXBuildFile; fileRef = 733BDED7484B4A9CAA1BB2D0 /* promocione.png */; };
+		68BA8ED500234D579BD51895 /* ios_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 77107EF17486445DAA92251C /* ios_icon.png */; };
+		69034020263B4764B9D35CEB /* location_small.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8A494D1617485AB62D3B27 /* location_small.png */; };
+		6D2390499B3C430DAE2519AC /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 389D7DBE03C54323B77AAA13 /* facebook.png */; };
+		6E46DCC058224FB5B673B1AF /* motor_small.png in Resources */ = {isa = PBXBuildFile; fileRef = DABC017A38D241D3AF8218C0 /* motor_small.png */; };
+		6F7B63FBF787451C952806A5 /* checkout_cart.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0144B0D89147A3A2E6F971 /* checkout_cart.png */; };
+		726B4B7A28BF4089B08B5874 /* goodactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A0A9C1DC93345C986917351 /* goodactive.png */; };
+		737EF21C33E4444AA7A8EA78 /* sadinactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C6ED13FFD024239A587D470 /* sadinactive.png */; };
+		778C7B88DCF64E15A70496B1 /* plus-grey-250.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E5E9F259838428792C5A084 /* plus-grey-250.png */; };
+		7CE81CC2A15B467386CA1ACD /* activechat.png in Resources */ = {isa = PBXBuildFile; fileRef = B2848687D5F74006980938C3 /* activechat.png */; };
+		7D07D8BD04E84A6992B0250A /* orders.png in Resources */ = {isa = PBXBuildFile; fileRef = ECBC1CEFB49F44169D1E3753 /* orders.png */; };
+		7EA5CE02D9764ED286D03BFD /* ok.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F84944E422040E09182C1AD /* ok.png */; };
+		7F85F21986B8492482E88478 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 23A4435B7E044FB883E589BF /* calendar.png */; };
+		7FB9FDCF875A4ADBB75C9E21 /* half_bckground.png in Resources */ = {isa = PBXBuildFile; fileRef = 971F2215C57246D286B418FA /* half_bckground.png */; };
+		8369898C51A14AB898DC7DA8 /* SanFranciscoDisplay-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = C89970EECA7145D9985408B0 /* SanFranciscoDisplay-Medium.otf */; };
+		838E3204B4844BCCAF6BC9A4 /* SanFranciscoDisplay-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 79AFAC19BBE44EFB85BEDD06 /* SanFranciscoDisplay-Heavy.otf */; };
+		83C8F7AC4A6D496AB59FBDA7 /* neutralinactive.png in Resources */ = {isa = PBXBuildFile; fileRef = D7301B0B1BA1415DA2CABD2C /* neutralinactive.png */; };
+		866B5D32D6204A2C8C28454B /* adresat.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB489F898754F478647F2D3 /* adresat.png */; };
+		896D4CA42BD74EF98BD42D22 /* addlocation.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A5BCA48A75E42FB8A81B270 /* addlocation.png */; };
+		8A3AD546ED0B42A9969AF237 /* filled-star.png in Resources */ = {isa = PBXBuildFile; fileRef = 1595B494A7714C78947BC769 /* filled-star.png */; };
+		8CC702DB32514170A43FC6C0 /* no_res_near.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BAF6CB3CE37434382F4B8D5 /* no_res_near.png */; };
+		8F08434BF2264D19BAFF1EC0 /* restaurantsactive.png in Resources */ = {isa = PBXBuildFile; fileRef = E7C30A0E90C4456B9DFD368E /* restaurantsactive.png */; };
+		90226FF501CC44DCA18BF008 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D6474F26A14E0F976570B9 /* search.png */; };
+		931A7129541D449BADBB2BD3 /* inactive_chat_ic.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FB8AFDC3D99462986244A66 /* inactive_chat_ic.png */; };
+		93CB4285B4944C49A0BD4B07 /* star_new_small.png in Resources */ = {isa = PBXBuildFile; fileRef = C8A68A2CB96A42AC9296AB5B /* star_new_small.png */; };
+		94BFF4B4AE14496EA365C6A2 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 56792704CD6C4E37AF82DB0A /* logo.png */; };
+		9A75BDEF78334350B73AD1ED /* x-close-ic.png in Resources */ = {isa = PBXBuildFile; fileRef = A2FAB03697E44466A0C6F018 /* x-close-ic.png */; };
+		9DA980250D824E949960470B /* restaurants.png in Resources */ = {isa = PBXBuildFile; fileRef = BE9857C1388844809AB24602 /* restaurants.png */; };
+		9E3C2BB0A64F474BA97B19F4 /* bad.png in Resources */ = {isa = PBXBuildFile; fileRef = 96E83AA08F704640A1DF42C3 /* bad.png */; };
+		9EF8A19505A44E4686B55CCB /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A58461324AB74726889A958D /* icon.png */; };
+		A0C15A1BF4904E849E09AE76 /* SanFranciscoDisplay-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = ED606ED23CBC4C3D9568565E /* SanFranciscoDisplay-Semibold.otf */; };
+		A1DD7BCF056F47A385FE22C6 /* open_restaurant.png in Resources */ = {isa = PBXBuildFile; fileRef = E5F0FCC032BB457398054A8D /* open_restaurant.png */; };
+		A30EE25303E747388214777B /* unfilled-star.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E7474ECFAD44956AE028C81 /* unfilled-star.png */; };
+		A830CA6A33194338B97B9548 /* ChatIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 64ABA78AE5264478823015F9 /* ChatIcon.png */; };
+		A90D1865CFBA41BC9A4BB562 /* dergesa.png in Resources */ = {isa = PBXBuildFile; fileRef = 7551F2242DC142FA8C407C3C /* dergesa.png */; };
+		AB8CFA08242124CA00A84798 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB8CFA07242124CA00A84798 /* GoogleService-Info.plist */; };
+		AF59C23AB7084E7BA2710B59 /* welcome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4E04F256CB6409C87D28AF9 /* welcome.jpg */; };
+		B0744F4ADC3544689EE8A425 /* mylocation.png in Resources */ = {isa = PBXBuildFile; fileRef = F88AD38212FC40EA9660EA7C /* mylocation.png */; };
+		B3F99328FD91489AB234D4EF /* ora.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C3E852704994585BF678DFF /* ora.png */; };
+		B9FE3D36A6CE4D92905C43E1 /* ordersactive.png in Resources */ = {isa = PBXBuildFile; fileRef = AC846D6FB8444B14B0A0BCB8 /* ordersactive.png */; };
+		BB150DC0F2CD4D7B8B7D280C /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E9F5CBD5864A4789D00181 /* camera.png */; };
+		C175B86AD1E14012B268C020 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = F3F94F468A6143968E086634 /* close.png */; };
+		C2065D40AA0A4577A8C88D5C /* whiteLocation.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BC821F85B8247D5807D4A45 /* whiteLocation.png */; };
+		C527BDD27DEE45BBBA8848A7 /* vgood.png in Resources */ = {isa = PBXBuildFile; fileRef = 82E54C43E6F445D7914D940D /* vgood.png */; };
+		C68FFFB0F1AD43BEA53A2EF9 /* sort_popular.png in Resources */ = {isa = PBXBuildFile; fileRef = 03A4EBC90283463CB7272293 /* sort_popular.png */; };
+		C83C101BF64D41C1AB8D8A63 /* noorders.png in Resources */ = {isa = PBXBuildFile; fileRef = C3E5711E83DE4D44841DF871 /* noorders.png */; };
+		C8838414BE4F4991A82B9841 /* loc.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B258BF8CBA442C9B63BEF7C /* loc.png */; };
+		C9995E9BBFF342B49177ED00 /* rbadactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 4786083832E847D8BFB93D50 /* rbadactive.png */; };
+		C9F8CDAAC2A84BEB9AB4878E /* logo_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 168733BC6BFC4B6688188894 /* logo_white.png */; };
+		CA79396BA62044B09BA42337 /* SanFranciscoDisplay-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 310D0A6E0F0A4108955217A2 /* SanFranciscoDisplay-Light.otf */; };
+		CEF63441C3094A9BB0C5D858 /* closed-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 07C00382182941B98A507A89 /* closed-small.png */; };
+		CF055A30DE2C48E0A946EC6C /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AAED785BE2345F9A357C136 /* heart.png */; };
+		D03EFB26410642499DA3B4F8 /* white_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A3E3EC170A24022B395B29C /* white_back.png */; };
+		D2091FEE4ADD40DA8AC29945 /* minus-grey-250.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B8AC3026714845924C99B8 /* minus-grey-250.png */; };
+		D38307B549B84777A4B49BFF /* sort_name.png in Resources */ = {isa = PBXBuildFile; fileRef = FB92254A286C45679BF6F832 /* sort_name.png */; };
+		D8FF537CBFC34C96B7674495 /* hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AD426F87B4B4BDA9F23C575 /* hand.png */; };
+		DF6A098E11F844749B45341D /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A308307B0EA49BB98F8C22C /* splash.png */; };
+		E46CA90610D84C0DA5480611 /* arrow250.png in Resources */ = {isa = PBXBuildFile; fileRef = C0E6888BF6FC4084B7D023E9 /* arrow250.png */; };
+		E7D7A5A81A764FB496EA2393 /* neutral.png in Resources */ = {isa = PBXBuildFile; fileRef = CDFCBC6C19E14E368453C60A /* neutral.png */; };
+		E8CC49BFA3F44FD0B1E935AA /* plus-250.png in Resources */ = {isa = PBXBuildFile; fileRef = B8CAE2F1BFF74CD5834F22D2 /* plus-250.png */; };
+		E96378BB2ACC498BA06AE2B7 /* new-l-small.png in Resources */ = {isa = PBXBuildFile; fileRef = C70FF1D032A5462B8D7F4509 /* new-l-small.png */; };
+		EABB38E2D0EA4A8AB0755C0A /* re_order.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D4FA22B61C34425A3A9CB6D /* re_order.png */; };
+		EC61B742986F4DCF85FBB23B /* happy.png in Resources */ = {isa = PBXBuildFile; fileRef = B65F92CACE3145B1977D6AD7 /* happy.png */; };
+		EE50E98BC96E4EA6A24DFC60 /* nofavorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 72136B798A964EA5906DF4C2 /* nofavorite.png */; };
+		EF0B9F167A81410393280357 /* locwhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 1774768B347A4157B6397FE3 /* locwhite.png */; };
+		EF4359D00C4E4A0A87448BF9 /* rbad.png in Resources */ = {isa = PBXBuildFile; fileRef = B64B870C3B0D47B9B6528FBA /* rbad.png */; };
+		EFA20E3339C843E79768DA10 /* sort_location.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CAA9AB246D44A7A802136FB /* sort_location.png */; };
+		F459C991A47D48B283FFAABB /* profileactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3B75EB0B3648D2B4695E6D /* profileactive.png */; };
+		F490F7B312E54010AD0BEB17 /* të-preferuarat.png in Resources */ = {isa = PBXBuildFile; fileRef = 45669409B95A4BF18D9A2DB4 /* të-preferuarat.png */; };
+		F6F1334EB7D148438D644DB3 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E1F14D24DB6468EABF56700 /* info.png */; };
+		F84AD005B42E40E3AE924E40 /* chat_old.png in Resources */ = {isa = PBXBuildFile; fileRef = 084CFC04B6754539BFAA6777 /* chat_old.png */; };
+		FBF60451BEA2452F9148E8FF /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D226E43744E4903A2550A2B /* location.png */; };
+		FBFFB1CDA15C4455AD8605B8 /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 280098CD167E4F939F275ECD /* chat.png */; };
+		FD23FAC7C350429CB9E1A2CD /* happyinactive.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9A12A0580D4A60B143DE4C /* happyinactive.png */; };
+		FD30CC5E6DAE4272B8B2DA30 /* navigate.png in Resources */ = {isa = PBXBuildFile; fileRef = 224C86799AD543EE9527C4B6 /* navigate.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = Snapfood;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "Snapfood-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* SnapfoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapfoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* SnapfoodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapfoodTests.m; sourceTree = "<group>"; };
+		02D8E5248EE9493CA7DE734A /* motori.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = motori.png; path = ../src/common/assets/images/motori.png; sourceTree = "<group>"; };
+		039D6608C24F4B89BD0E3A67 /* login_splash.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = login_splash.jpg; path = ../src/common/assets/images/user/login_splash.jpg; sourceTree = "<group>"; };
+		03A4EBC90283463CB7272293 /* sort_popular.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = sort_popular.png; path = ../src/common/assets/images/restaurant/sort_popular.png; sourceTree = "<group>"; };
+		0595E0569B3F4CF3983696B3 /* white_share.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = white_share.png; path = ../src/common/assets/images/restaurant/white_share.png; sourceTree = "<group>"; };
+		07C00382182941B98A507A89 /* closed-small.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "closed-small.png"; path = "../src/common/assets/images/restaurant/closed-small.png"; sourceTree = "<group>"; };
+		084CFC04B6754539BFAA6777 /* chat_old.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = chat_old.png; path = ../src/common/assets/images/tabs/chat_old.png; sourceTree = "<group>"; };
+		0A1650DD23E64E739133CE33 /* okinactive.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = okinactive.png; path = ../src/common/assets/images/dashboard_review/okinactive.png; sourceTree = "<group>"; };
+		0A3E3EC170A24022B395B29C /* white_back.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = white_back.png; path = ../src/common/assets/images/restaurant/white_back.png; sourceTree = "<group>"; };
+		0BC821F85B8247D5807D4A45 /* whiteLocation.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = whiteLocation.png; path = ../src/common/assets/images/location/whiteLocation.png; sourceTree = "<group>"; };
+		0CB2E4B4C2834A5EB0AA8B8A /* searchactive.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = searchactive.png; path = ../src/common/assets/images/tabs/searchactive.png; sourceTree = "<group>"; };
+		0ED21783A98B4B069262CBAA /* ope_menu.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ope_menu.png; path = ../src/common/assets/images/restaurant/ope_menu.png; sourceTree = "<group>"; };
+		0F84944E422040E09182C1AD /* ok.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ok.png; path = ../src/common/assets/images/dashboard_review/ok.png; sourceTree = "<group>"; };
+		1109EB269A1945F1BCFCE1C9 /* instruksione.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = instruksione.png; path = ../src/common/assets/images/instruksione.png; sourceTree = "<group>"; };
+		121DD0A6AE444AB891E01D9D /* cmimi.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = cmimi.png; path = ../src/common/assets/images/restaurant/cmimi.png; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Snapfood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapfood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Snapfood/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Snapfood/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Snapfood/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Snapfood/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Snapfood/main.m; sourceTree = "<group>"; };
+		1595B494A7714C78947BC769 /* filled-star.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "filled-star.png"; path = "../src/common/assets/images/chat/filled-star.png"; sourceTree = "<group>"; };
+		168733BC6BFC4B6688188894 /* logo_white.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = logo_white.png; path = ../src/common/assets/images/logo_white.png; sourceTree = "<group>"; };
+		1774768B347A4157B6397FE3 /* locwhite.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = locwhite.png; path = ../src/common/assets/images/location/locwhite.png; sourceTree = "<group>"; };
+		1A308307B0EA49BB98F8C22C /* splash.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = splash.png; path = ../src/common/assets/images/splash.png; sourceTree = "<group>"; };
+		1BAF6CB3CE37434382F4B8D5 /* no_res_near.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = no_res_near.png; path = ../src/common/assets/images/restaurant/no_res_near.png; sourceTree = "<group>"; };
+		1CB2D7CBFD19434A8C59D6C2 /* libPods-Snapfood-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Snapfood-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D3B44E636B74110BF87BB5B /* badactive.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = badactive.png; path = ../src/common/assets/images/orders/review/badactive.png; sourceTree = "<group>"; };
+		1FB8AFDC3D99462986244A66 /* inactive_chat_ic.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = inactive_chat_ic.png; path = ../src/common/assets/images/tabs/inactive_chat_ic.png; sourceTree = "<group>"; };
+		224C86799AD543EE9527C4B6 /* navigate.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = navigate.png; path = ../src/common/assets/images/location/navigate.png; sourceTree = "<group>"; };
+		233C30F72DA244C7A2108AE7 /* SanFranciscoDisplay-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SanFranciscoDisplay-Regular.otf"; path = "../src/theme/fonts/SanFranciscoDisplay-Regular.otf"; sourceTree = "<group>"; };
+		23A4435B7E044FB883E589BF /* calendar.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = calendar.png; path = ../src/common/assets/images/orders/calendar.png; sourceTree = "<group>"; };
+		280098CD167E4F939F275ECD /* chat.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = chat.png; path = ../src/common/assets/images/tabs/chat.png; sourceTree = "<group>"; };
+		2A0A9C1DC93345C986917351 /* goodactive.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = goodactive.png; path = ../src/common/assets/images/orders/review/goodactive.png; sourceTree = "<group>"; };
+		2A5BCA48A75E42FB8A81B270 /* addlocation.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = addlocation.png; path = ../src/common/assets/images/location/addlocation.png; sourceTree = "<group>"; };
+		2B258BF8CBA442C9B63BEF7C /* loc.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = loc.png; path = ../src/common/assets/images/location/loc.png; sourceTree = "<group>"; };
+		2B8B1C7B4AEE4DEE98A9C277 /* minus.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = minus.png; path = ../src/common/assets/images/restaurant/minus.png; sourceTree = "<group>"; };
+		2C3E852704994585BF678DFF /* ora.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ora.png; path = ../src/common/assets/images/restaurant/ora.png; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* Snapfood-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snapfood-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* Snapfood-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snapfood-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D226E43744E4903A2550A2B /* location.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = location.png; path = ../src/common/assets/images/location/location.png; sourceTree = "<group>"; };
+		2D4FA22B61C34425A3A9CB6D /* re_order.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = re_order.png; path = ../src/common/assets/images/orders/re_order.png; sourceTree = "<group>"; };
+		2E5E9F259838428792C5A084 /* plus-grey-250.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "plus-grey-250.png"; path = "../src/common/assets/images/plus-grey-250.png"; sourceTree = "<group>"; };
+		2E610FB108E84D398FA03289 /* rotate.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = rotate.png; path = ../src/common/assets/images/restaurant/rotate.png; sourceTree = "<group>"; };
+		2FC2947CAE784975BC3D6097 /* heartinactive.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = heartinactive.png; path = ../src/common/assets/images/dashboard_review/heartinactive.png; sourceTree = "<group>"; };
+		310D0A6E0F0A4108955217A2 /* SanFranciscoDisplay-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SanFranciscoDisplay-Light.otf"; path = "../src/theme/fonts/SanFranciscoDisplay-Light.otf"; sourceTree = "<group>"; };
+		3361F8CD3094487F880F558C /* star.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = star.png; path = ../src/common/assets/images/restaurant/star.png; sourceTree = "<group>"; };
+		389D7DBE03C54323B77AAA13 /* facebook.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = facebook.png; path = ../src/common/assets/images/user/facebook.png; sourceTree = "<group>"; };
+		390F8E15AA7442659F280D88 /* plus.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = plus.png; path = ../src/common/assets/images/restaurant/plus.png; sourceTree = "<group>"; };
+		396C388A50F80EAB0850E9E7 /* Pods-Snapfood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapfood.release.xcconfig"; path = "Target Support Files/Pods-Snapfood/Pods-Snapfood.release.xcconfig"; sourceTree = "<group>"; };
+		3AD426F87B4B4BDA9F23C575 /* hand.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = hand.png; path = ../src/common/assets/images/chat/hand.png; sourceTree = "<group>"; };
+		3E7474ECFAD44956AE028C81 /* unfilled-star.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "unfilled-star.png"; path = "../src/common/assets/images/chat/unfilled-star.png"; sourceTree = "<group>"; };
+		419BF1B1C97244418B7E07F8 /* llogaria-juaj.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "llogaria-juaj.png"; path = "../src/common/assets/images/account/llogaria-juaj.png"; sourceTree = "<group>"; };
+		4554816203104924B99810D0 /* leave_restaurant.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = leave_restaurant.png; path = ../src/common/assets/images/leave_restaurant.png; sourceTree = "<group>"; };
+		45663C79C86448B5ABBDA6CA /* fontello.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = fontello.ttf; path = ../src/theme/fonts/fontello.ttf; sourceTree = "<group>"; };
+		45669409B95A4BF18D9A2DB4 /* të-preferuarat.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "të-preferuarat.png"; path = "../src/common/assets/images/account/të-preferuarat.png"; sourceTree = "<group>"; };
+		4786083832E847D8BFB93D50 /* rbadactive.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = rbadactive.png; path = ../src/common/assets/images/orders/review/rbadactive.png; sourceTree = "<group>"; };
+		49FAFD8E1BE2468094DEB23D /* canceled.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = canceled.png; path = ../src/common/assets/images/orders/canceled.png; sourceTree = "<group>"; };
+		4B6A7441A2F94F258D91140C /* good.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = good.png; path = ../src/common/assets/images/orders/review/good.png; sourceTree = "<group>"; };
+		4C3B75EB0B3648D2B4695E6D /* profileactive.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = profileactive.png; path = ../src/common/assets/images/tabs/profileactive.png; sourceTree = "<group>"; };
+		56792704CD6C4E37AF82DB0A /* logo.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = logo.png; path = ../src/common/assets/images/logo.png; sourceTree = "<group>"; };
+		5CAA9AB246D44A7A802136FB /* sort_location.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = sort_location.png; path = ../src/common/assets/images/restaurant/sort_location.png; sourceTree = "<group>"; };
+		5E1F14D24DB6468EABF56700 /* info.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = info.png; path = ../src/common/assets/images/restaurant/info.png; sourceTree = "<group>"; };
+		5FA6E376DCF345DDAB15DD14 /* mobile.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = mobile.png; path = ../src/common/assets/images/orders/mobile.png; sourceTree = "<group>"; };
+		64ABA78AE5264478823015F9 /* ChatIcon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ChatIcon.png; path = ../src/common/assets/images/chat/ChatIcon.png; sourceTree = "<group>"; };
+		65E0A632D75ECBE3E4156CCC /* Pods-Snapfood-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapfood-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Snapfood-tvOSTests/Pods-Snapfood-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		66FA0830F0873EAE87761EBF /* libPods-Snapfood-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Snapfood-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69521840AE61431CA9A62D45 /* close_modal.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = close_modal.png; path = ../src/common/assets/images/user/close_modal.png; sourceTree = "<group>"; };
+		6C6ED13FFD024239A587D470 /* sadinactive.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = sadinactive.png; path = ../src/common/assets/images/dashboard_review/sadinactive.png; sourceTree = "<group>"; };
+		72136B798A964EA5906DF4C2 /* nofavorite.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = nofavorite.png; path = ../src/common/assets/images/restaurant/nofavorite.png; sourceTree = "<group>"; };
+		733BDED7484B4A9CAA1BB2D0 /* promocione.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = promocione.png; path = ../src/common/assets/images/account/promocione.png; sourceTree = "<group>"; };
+		7381ED35F58541E592EFA2E4 /* active_chat_ic.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = active_chat_ic.png; path = ../src/common/assets/images/tabs/active_chat_ic.png; sourceTree = "<group>"; };
+		7551F2242DC142FA8C407C3C /* dergesa.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = dergesa.png; path = ../src/common/assets/images/restaurant/dergesa.png; sourceTree = "<group>"; };
+		77107EF17486445DAA92251C /* ios_icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ios_icon.png; path = ../src/common/assets/images/ios_icon.png; sourceTree = "<group>"; };
+		78C2B1B1F1744ADC80038A28 /* delivering.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = delivering.png; path = ../src/common/assets/images/orders/delivering.png; sourceTree = "<group>"; };
+		79AFAC19BBE44EFB85BEDD06 /* SanFranciscoDisplay-Heavy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SanFranciscoDisplay-Heavy.otf"; path = "../src/theme/fonts/SanFranciscoDisplay-Heavy.otf"; sourceTree = "<group>"; };
+		7C2F7B67521C4BC693AAE2BD /* logoop.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = logoop.png; path = ../src/common/assets/images/restaurant/logoop.png; sourceTree = "<group>"; };
+		7DFC3A0D11ED4B34B83924E8 /* dilni.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = dilni.png; path = ../src/common/assets/images/account/dilni.png; sourceTree = "<group>"; };
+		807C8E62D48943C7A407A723 /* time-new-small.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "time-new-small.png"; path = "../src/common/assets/images/restaurant/time-new-small.png"; sourceTree = "<group>"; };
+		80F5969F4AF44ACBBFFEE589 /* done.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = done.png; path = ../src/common/assets/images/orders/done.png; sourceTree = "<group>"; };
+		81E2670537FD4C03BF9A029C /* SanFranciscoDisplay-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SanFranciscoDisplay-Bold.otf"; path = "../src/theme/fonts/SanFranciscoDisplay-Bold.otf"; sourceTree = "<group>"; };
+		82C3196A3FFE99D5E534A109 /* libPods-Snapfood.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Snapfood.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E54C43E6F445D7914D940D /* vgood.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = vgood.png; path = ../src/common/assets/images/orders/review/vgood.png; sourceTree = "<group>"; };
+		84B8AC3026714845924C99B8 /* minus-grey-250.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "minus-grey-250.png"; path = "../src/common/assets/images/minus-grey-250.png"; sourceTree = "<group>"; };
+		8530A960FC05942BF583523B /* Pods-Snapfood-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapfood-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Snapfood-tvOSTests/Pods-Snapfood-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		863A86DD98BF4C6A9C525820 /* location_address_search.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = location_address_search.png; path = ../src/common/assets/images/location_address_search.png; sourceTree = "<group>"; };
+		86E3B1AC61124710910505EE /* share.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = share.png; path = ../src/common/assets/images/restaurant/share.png; sourceTree = "<group>"; };
+		8749AF3AF6784553BA32CD39 /* arrow_faceup.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = arrow_faceup.png; path = ../src/common/assets/images/restaurant/arrow_faceup.png; sourceTree = "<group>"; };
+		8AAED785BE2345F9A357C136 /* heart.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = heart.png; path = ../src/common/assets/images/dashboard_review/heart.png; sourceTree = "<group>"; };
+		96E83AA08F704640A1DF42C3 /* bad.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = bad.png; path = ../src/common/assets/images/orders/review/bad.png; sourceTree = "<group>"; };
+		971F2215C57246D286B418FA /* half_bckground.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = half_bckground.png; path = ../src/common/assets/images/chat/half_bckground.png; sourceTree = "<group>"; };
+		9814CB2F63E74EAD9396565C /* filter.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = filter.png; path = ../src/common/assets/images/restaurant/filter.png; sourceTree = "<group>"; };
+		9ED62C552EB26085B148B7E3 /* Pods-SnapfoodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapfoodTests.release.xcconfig"; path = "Target Support Files/Pods-SnapfoodTests/Pods-SnapfoodTests.release.xcconfig"; sourceTree = "<group>"; };
+		A2FAB03697E44466A0C6F018 /* x-close-ic.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "x-close-ic.png"; path = "../src/common/assets/images/chat/x-close-ic.png"; sourceTree = "<group>"; };
+		A397E0DFC84448CA9262A315 /* white_info.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = white_info.png; path = ../src/common/assets/images/restaurant/white_info.png; sourceTree = "<group>"; };
+		A58461324AB74726889A958D /* icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = icon.png; path = ../src/common/assets/images/icon.png; sourceTree = "<group>"; };
+		A9D6474F26A14E0F976570B9 /* search.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = search.png; path = ../src/common/assets/images/categories/search.png; sourceTree = "<group>"; };
+		AA8A494D1617485AB62D3B27 /* location_small.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = location_small.png; path = ../src/common/assets/images/restaurant/location_small.png; sourceTree = "<group>"; };
+		AA98CA503ACA464E91BB9F4B /* adresat-not-primary.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "adresat-not-primary.png"; path = "../src/common/assets/images/account/adresat-not-primary.png"; sourceTree = "<group>"; };
+		AB8CFA07242124CA00A84798 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Snapfood/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AB8CFA09242135BE00A84798 /* Snapfood.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Snapfood.entitlements; path = Snapfood/Snapfood.entitlements; sourceTree = "<group>"; };
+		AC846D6FB8444B14B0A0BCB8 /* ordersactive.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ordersactive.png; path = ../src/common/assets/images/tabs/ordersactive.png; sourceTree = "<group>"; };
+		ADA6127329004218B7BA8572 /* review.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = review.png; path = ../src/common/assets/images/restaurant/review.png; sourceTree = "<group>"; };
+		AF39EF01BD4841329EEBD4FA /* attach.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = attach.png; path = ../src/common/assets/images/chat/attach.png; sourceTree = "<group>"; };
+		B2848687D5F74006980938C3 /* activechat.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = activechat.png; path = ../src/common/assets/images/tabs/activechat.png; sourceTree = "<group>"; };
+		B3E017C905749A5FFC5A4974 /* Pods-Snapfood-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapfood-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Snapfood-tvOS/Pods-Snapfood-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B64B870C3B0D47B9B6528FBA /* rbad.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = rbad.png; path = ../src/common/assets/images/orders/review/rbad.png; sourceTree = "<group>"; };
+		B65F92CACE3145B1977D6AD7 /* happy.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = happy.png; path = ../src/common/assets/images/dashboard_review/happy.png; sourceTree = "<group>"; };
+		B829CD1FFB284CB189A0A2CE /* category.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = category.png; path = ../src/common/assets/images/categories/category.png; sourceTree = "<group>"; };
+		B8CAE2F1BFF74CD5834F22D2 /* plus-250.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "plus-250.png"; path = "../src/common/assets/images/plus-250.png"; sourceTree = "<group>"; };
+		B8D0A4CFFA6044A2BBC29911 /* favorite.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = favorite.png; path = ../src/common/assets/images/location/favorite.png; sourceTree = "<group>"; };
+		BE9857C1388844809AB24602 /* restaurants.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = restaurants.png; path = ../src/common/assets/images/tabs/restaurants.png; sourceTree = "<group>"; };
+		BFE9BA10C7CF49B290B3B685 /* custom_marker_location.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = custom_marker_location.png; path = ../src/common/assets/images/custom_marker_location.png; sourceTree = "<group>"; };
+		C0D30BAA62B440B0A4D26EED /* waiting.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = waiting.png; path = ../src/common/assets/images/orders/waiting.png; sourceTree = "<group>"; };
+		C0E6888BF6FC4084B7D023E9 /* arrow250.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = arrow250.png; path = ../src/common/assets/images/arrow250.png; sourceTree = "<group>"; };
+		C0F5077B775C48499F3B18CA /* sad.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = sad.png; path = ../src/common/assets/images/dashboard_review/sad.png; sourceTree = "<group>"; };
+		C3E5711E83DE4D44841DF871 /* noorders.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = noorders.png; path = ../src/common/assets/images/orders/noorders.png; sourceTree = "<group>"; };
+		C4E04F256CB6409C87D28AF9 /* welcome.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = welcome.jpg; path = ../src/common/assets/images/welcome/welcome.jpg; sourceTree = "<group>"; };
+		C5630402AB88445EBB7D1327 /* profile.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = profile.png; path = ../src/common/assets/images/tabs/profile.png; sourceTree = "<group>"; };
+		C70FF1D032A5462B8D7F4509 /* new-l-small.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "new-l-small.png"; path = "../src/common/assets/images/restaurant/new-l-small.png"; sourceTree = "<group>"; };
+		C89970EECA7145D9985408B0 /* SanFranciscoDisplay-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SanFranciscoDisplay-Medium.otf"; path = "../src/theme/fonts/SanFranciscoDisplay-Medium.otf"; sourceTree = "<group>"; };
+		C8A68A2CB96A42AC9296AB5B /* star_new_small.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = star_new_small.png; path = ../src/common/assets/images/restaurant/star_new_small.png; sourceTree = "<group>"; };
+		CDFCBC6C19E14E368453C60A /* neutral.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = neutral.png; path = ../src/common/assets/images/dashboard_review/neutral.png; sourceTree = "<group>"; };
+		CDFE4DF701FC4C9ABF932CFE /* arrow_right.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = arrow_right.png; path = ../src/common/assets/images/arrow_right.png; sourceTree = "<group>"; };
+		CE99989F567746EFB4312A2D /* neutralactive.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = neutralactive.png; path = ../src/common/assets/images/orders/review/neutralactive.png; sourceTree = "<group>"; };
+		CEB489F898754F478647F2D3 /* adresat.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = adresat.png; path = ../src/common/assets/images/account/adresat.png; sourceTree = "<group>"; };
+		CEBEFAE4C4A74C19A9F48582 /* motori-3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "motori-3x.png"; path = "../src/common/assets/images/motori-3x.png"; sourceTree = "<group>"; };
+		D617513FB33142879E94B8C9 /* location_address_icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = location_address_icon.png; path = ../src/common/assets/images/location_address_icon.png; sourceTree = "<group>"; };
+		D7301B0B1BA1415DA2CABD2C /* neutralinactive.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = neutralinactive.png; path = ../src/common/assets/images/dashboard_review/neutralinactive.png; sourceTree = "<group>"; };
+		DA9A12A0580D4A60B143DE4C /* happyinactive.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = happyinactive.png; path = ../src/common/assets/images/dashboard_review/happyinactive.png; sourceTree = "<group>"; };
+		DABC017A38D241D3AF8218C0 /* motor_small.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = motor_small.png; path = ../src/common/assets/images/restaurant/motor_small.png; sourceTree = "<group>"; };
+		DE11CE15386F4084A322196A /* fork.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = fork.png; path = ../src/common/assets/images/user/fork.png; sourceTree = "<group>"; };
+		E395EA78B1BD49459719917C /* cart.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = cart.png; path = ../src/common/assets/images/cart.png; sourceTree = "<group>"; };
+		E562819225DF45010BC479FF /* libPods-SnapfoodTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SnapfoodTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5F0FCC032BB457398054A8D /* open_restaurant.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = open_restaurant.png; path = ../src/common/assets/images/restaurant/open_restaurant.png; sourceTree = "<group>"; };
+		E6E9F5CBD5864A4789D00181 /* camera.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = camera.png; path = ../src/common/assets/images/chat/camera.png; sourceTree = "<group>"; };
+		E7C30A0E90C4456B9DFD368E /* restaurantsactive.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = restaurantsactive.png; path = ../src/common/assets/images/tabs/restaurantsactive.png; sourceTree = "<group>"; };
+		ECBC1CEFB49F44169D1E3753 /* orders.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = orders.png; path = ../src/common/assets/images/tabs/orders.png; sourceTree = "<group>"; };
+		ED0144B0D89147A3A2E6F971 /* checkout_cart.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = checkout_cart.png; path = ../src/common/assets/images/restaurant/checkout_cart.png; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		ED606ED23CBC4C3D9568565E /* SanFranciscoDisplay-Semibold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SanFranciscoDisplay-Semibold.otf"; path = "../src/theme/fonts/SanFranciscoDisplay-Semibold.otf"; sourceTree = "<group>"; };
+		F131A464222349ED8FFBADCD /* vgoodactive.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = vgoodactive.png; path = ../src/common/assets/images/orders/review/vgoodactive.png; sourceTree = "<group>"; };
+		F18D37375A9B2CF8A5C3BECA /* Pods-SnapfoodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapfoodTests.debug.xcconfig"; path = "Target Support Files/Pods-SnapfoodTests/Pods-SnapfoodTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F224D59844C4CB3649169BC3 /* Pods-Snapfood-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapfood-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Snapfood-tvOS/Pods-Snapfood-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		F322937CF1F642899FC5E8D7 /* distance.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = distance.png; path = ../src/common/assets/images/restaurant/distance.png; sourceTree = "<group>"; };
+		F3F94F468A6143968E086634 /* close.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = close.png; path = ../src/common/assets/images/orders/close.png; sourceTree = "<group>"; };
+		F88AD38212FC40EA9660EA7C /* mylocation.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = mylocation.png; path = ../src/common/assets/images/location/mylocation.png; sourceTree = "<group>"; };
+		F965C6F1F210D8F9DFE09E9D /* Pods-Snapfood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapfood.debug.xcconfig"; path = "Target Support Files/Pods-Snapfood/Pods-Snapfood.debug.xcconfig"; sourceTree = "<group>"; };
+		FB92254A286C45679BF6F832 /* sort_name.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = sort_name.png; path = ../src/common/assets/images/restaurant/sort_name.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42403807259770AE2C7A0C02 /* libPods-SnapfoodTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E8EA95CAB6E44EAC7FB3227 /* libPods-Snapfood.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176BA9498FCF9929B194FC26 /* libPods-Snapfood-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CBD8164EE2EE2AF3568B157 /* libPods-Snapfood-tvOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* SnapfoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* SnapfoodTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = SnapfoodTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* Snapfood */ = {
+			isa = PBXGroup;
+			children = (
+				AB8CFA09242135BE00A84798 /* Snapfood.entitlements */,
+				AB8CFA07242124CA00A84798 /* GoogleService-Info.plist */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = Snapfood;
+			sourceTree = "<group>";
+		};
+		22A7BDDCDCC77C111270131B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F965C6F1F210D8F9DFE09E9D /* Pods-Snapfood.debug.xcconfig */,
+				396C388A50F80EAB0850E9E7 /* Pods-Snapfood.release.xcconfig */,
+				B3E017C905749A5FFC5A4974 /* Pods-Snapfood-tvOS.debug.xcconfig */,
+				F224D59844C4CB3649169BC3 /* Pods-Snapfood-tvOS.release.xcconfig */,
+				8530A960FC05942BF583523B /* Pods-Snapfood-tvOSTests.debug.xcconfig */,
+				65E0A632D75ECBE3E4156CCC /* Pods-Snapfood-tvOSTests.release.xcconfig */,
+				F18D37375A9B2CF8A5C3BECA /* Pods-SnapfoodTests.debug.xcconfig */,
+				9ED62C552EB26085B148B7E3 /* Pods-SnapfoodTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				82C3196A3FFE99D5E534A109 /* libPods-Snapfood.a */,
+				1CB2D7CBFD19434A8C59D6C2 /* libPods-Snapfood-tvOS.a */,
+				66FA0830F0873EAE87761EBF /* libPods-Snapfood-tvOSTests.a */,
+				E562819225DF45010BC479FF /* libPods-SnapfoodTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* Snapfood */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* SnapfoodTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				22A7BDDCDCC77C111270131B /* Pods */,
+				8ECC04246BD34EC282ECA868 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Snapfood.app */,
+				00E356EE1AD99517003FC87E /* SnapfoodTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* Snapfood-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* Snapfood-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ECC04246BD34EC282ECA868 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA98CA503ACA464E91BB9F4B /* adresat-not-primary.png */,
+				CEB489F898754F478647F2D3 /* adresat.png */,
+				7DFC3A0D11ED4B34B83924E8 /* dilni.png */,
+				419BF1B1C97244418B7E07F8 /* llogaria-juaj.png */,
+				733BDED7484B4A9CAA1BB2D0 /* promocione.png */,
+				45669409B95A4BF18D9A2DB4 /* të-preferuarat.png */,
+				CDFE4DF701FC4C9ABF932CFE /* arrow_right.png */,
+				C0E6888BF6FC4084B7D023E9 /* arrow250.png */,
+				E395EA78B1BD49459719917C /* cart.png */,
+				B829CD1FFB284CB189A0A2CE /* category.png */,
+				A9D6474F26A14E0F976570B9 /* search.png */,
+				AF39EF01BD4841329EEBD4FA /* attach.png */,
+				E6E9F5CBD5864A4789D00181 /* camera.png */,
+				64ABA78AE5264478823015F9 /* ChatIcon.png */,
+				1595B494A7714C78947BC769 /* filled-star.png */,
+				971F2215C57246D286B418FA /* half_bckground.png */,
+				3AD426F87B4B4BDA9F23C575 /* hand.png */,
+				3E7474ECFAD44956AE028C81 /* unfilled-star.png */,
+				A2FAB03697E44466A0C6F018 /* x-close-ic.png */,
+				BFE9BA10C7CF49B290B3B685 /* custom_marker_location.png */,
+				B65F92CACE3145B1977D6AD7 /* happy.png */,
+				DA9A12A0580D4A60B143DE4C /* happyinactive.png */,
+				8AAED785BE2345F9A357C136 /* heart.png */,
+				2FC2947CAE784975BC3D6097 /* heartinactive.png */,
+				CDFCBC6C19E14E368453C60A /* neutral.png */,
+				D7301B0B1BA1415DA2CABD2C /* neutralinactive.png */,
+				0F84944E422040E09182C1AD /* ok.png */,
+				0A1650DD23E64E739133CE33 /* okinactive.png */,
+				C0F5077B775C48499F3B18CA /* sad.png */,
+				6C6ED13FFD024239A587D470 /* sadinactive.png */,
+				A58461324AB74726889A958D /* icon.png */,
+				1109EB269A1945F1BCFCE1C9 /* instruksione.png */,
+				77107EF17486445DAA92251C /* ios_icon.png */,
+				4554816203104924B99810D0 /* leave_restaurant.png */,
+				D617513FB33142879E94B8C9 /* location_address_icon.png */,
+				863A86DD98BF4C6A9C525820 /* location_address_search.png */,
+				2A5BCA48A75E42FB8A81B270 /* addlocation.png */,
+				B8D0A4CFFA6044A2BBC29911 /* favorite.png */,
+				2B258BF8CBA442C9B63BEF7C /* loc.png */,
+				2D226E43744E4903A2550A2B /* location.png */,
+				1774768B347A4157B6397FE3 /* locwhite.png */,
+				F88AD38212FC40EA9660EA7C /* mylocation.png */,
+				224C86799AD543EE9527C4B6 /* navigate.png */,
+				0BC821F85B8247D5807D4A45 /* whiteLocation.png */,
+				168733BC6BFC4B6688188894 /* logo_white.png */,
+				56792704CD6C4E37AF82DB0A /* logo.png */,
+				84B8AC3026714845924C99B8 /* minus-grey-250.png */,
+				CEBEFAE4C4A74C19A9F48582 /* motori-3x.png */,
+				02D8E5248EE9493CA7DE734A /* motori.png */,
+				23A4435B7E044FB883E589BF /* calendar.png */,
+				49FAFD8E1BE2468094DEB23D /* canceled.png */,
+				F3F94F468A6143968E086634 /* close.png */,
+				78C2B1B1F1744ADC80038A28 /* delivering.png */,
+				80F5969F4AF44ACBBFFEE589 /* done.png */,
+				5FA6E376DCF345DDAB15DD14 /* mobile.png */,
+				C3E5711E83DE4D44841DF871 /* noorders.png */,
+				2D4FA22B61C34425A3A9CB6D /* re_order.png */,
+				96E83AA08F704640A1DF42C3 /* bad.png */,
+				1D3B44E636B74110BF87BB5B /* badactive.png */,
+				4B6A7441A2F94F258D91140C /* good.png */,
+				2A0A9C1DC93345C986917351 /* goodactive.png */,
+				CE99989F567746EFB4312A2D /* neutralactive.png */,
+				B64B870C3B0D47B9B6528FBA /* rbad.png */,
+				4786083832E847D8BFB93D50 /* rbadactive.png */,
+				82E54C43E6F445D7914D940D /* vgood.png */,
+				F131A464222349ED8FFBADCD /* vgoodactive.png */,
+				C0D30BAA62B440B0A4D26EED /* waiting.png */,
+				B8CAE2F1BFF74CD5834F22D2 /* plus-250.png */,
+				2E5E9F259838428792C5A084 /* plus-grey-250.png */,
+				8749AF3AF6784553BA32CD39 /* arrow_faceup.png */,
+				ED0144B0D89147A3A2E6F971 /* checkout_cart.png */,
+				07C00382182941B98A507A89 /* closed-small.png */,
+				121DD0A6AE444AB891E01D9D /* cmimi.png */,
+				7551F2242DC142FA8C407C3C /* dergesa.png */,
+				F322937CF1F642899FC5E8D7 /* distance.png */,
+				9814CB2F63E74EAD9396565C /* filter.png */,
+				5E1F14D24DB6468EABF56700 /* info.png */,
+				AA8A494D1617485AB62D3B27 /* location_small.png */,
+				7C2F7B67521C4BC693AAE2BD /* logoop.png */,
+				2B8B1C7B4AEE4DEE98A9C277 /* minus.png */,
+				DABC017A38D241D3AF8218C0 /* motor_small.png */,
+				C70FF1D032A5462B8D7F4509 /* new-l-small.png */,
+				1BAF6CB3CE37434382F4B8D5 /* no_res_near.png */,
+				72136B798A964EA5906DF4C2 /* nofavorite.png */,
+				0ED21783A98B4B069262CBAA /* ope_menu.png */,
+				E5F0FCC032BB457398054A8D /* open_restaurant.png */,
+				2C3E852704994585BF678DFF /* ora.png */,
+				390F8E15AA7442659F280D88 /* plus.png */,
+				ADA6127329004218B7BA8572 /* review.png */,
+				2E610FB108E84D398FA03289 /* rotate.png */,
+				86E3B1AC61124710910505EE /* share.png */,
+				5CAA9AB246D44A7A802136FB /* sort_location.png */,
+				FB92254A286C45679BF6F832 /* sort_name.png */,
+				03A4EBC90283463CB7272293 /* sort_popular.png */,
+				C8A68A2CB96A42AC9296AB5B /* star_new_small.png */,
+				3361F8CD3094487F880F558C /* star.png */,
+				807C8E62D48943C7A407A723 /* time-new-small.png */,
+				0A3E3EC170A24022B395B29C /* white_back.png */,
+				A397E0DFC84448CA9262A315 /* white_info.png */,
+				0595E0569B3F4CF3983696B3 /* white_share.png */,
+				1A308307B0EA49BB98F8C22C /* splash.png */,
+				7381ED35F58541E592EFA2E4 /* active_chat_ic.png */,
+				B2848687D5F74006980938C3 /* activechat.png */,
+				084CFC04B6754539BFAA6777 /* chat_old.png */,
+				280098CD167E4F939F275ECD /* chat.png */,
+				1FB8AFDC3D99462986244A66 /* inactive_chat_ic.png */,
+				ECBC1CEFB49F44169D1E3753 /* orders.png */,
+				AC846D6FB8444B14B0A0BCB8 /* ordersactive.png */,
+				C5630402AB88445EBB7D1327 /* profile.png */,
+				4C3B75EB0B3648D2B4695E6D /* profileactive.png */,
+				BE9857C1388844809AB24602 /* restaurants.png */,
+				E7C30A0E90C4456B9DFD368E /* restaurantsactive.png */,
+				0CB2E4B4C2834A5EB0AA8B8A /* searchactive.png */,
+				69521840AE61431CA9A62D45 /* close_modal.png */,
+				389D7DBE03C54323B77AAA13 /* facebook.png */,
+				DE11CE15386F4084A322196A /* fork.png */,
+				039D6608C24F4B89BD0E3A67 /* login_splash.jpg */,
+				C4E04F256CB6409C87D28AF9 /* welcome.jpg */,
+				45663C79C86448B5ABBDA6CA /* fontello.ttf */,
+				81E2670537FD4C03BF9A029C /* SanFranciscoDisplay-Bold.otf */,
+				79AFAC19BBE44EFB85BEDD06 /* SanFranciscoDisplay-Heavy.otf */,
+				310D0A6E0F0A4108955217A2 /* SanFranciscoDisplay-Light.otf */,
+				C89970EECA7145D9985408B0 /* SanFranciscoDisplay-Medium.otf */,
+				233C30F72DA244C7A2108AE7 /* SanFranciscoDisplay-Regular.otf */,
+				ED606ED23CBC4C3D9568565E /* SanFranciscoDisplay-Semibold.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* SnapfoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SnapfoodTests" */;
+			buildPhases = (
+				E59E369A5B8DD6D61712B1E7 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = SnapfoodTests;
+			productName = SnapfoodTests;
+			productReference = 00E356EE1AD99517003FC87E /* SnapfoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* Snapfood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Snapfood" */;
+			buildPhases = (
+				5BB64F558C2F89945D73D01F /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				828191673A5D9ABAC288A76C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snapfood;
+			productName = Snapfood;
+			productReference = 13B07F961A680F5B00A75B9A /* Snapfood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* Snapfood-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Snapfood-tvOS" */;
+			buildPhases = (
+				392EEE9B6B9A50737053EBC9 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F122414F3F0027D42C /* Start Packager */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snapfood-tvOS";
+			productName = "Snapfood-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* Snapfood-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* Snapfood-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Snapfood-tvOSTests" */;
+			buildPhases = (
+				F42B1E72D17F820D69343091 /* [CP] Check Pods Manifest.lock */,
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "Snapfood-tvOSTests";
+			productName = "Snapfood-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* Snapfood-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 940;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = K8W6T6FS26;
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Snapfood" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* Snapfood */,
+				00E356ED1AD99517003FC87E /* SnapfoodTests */,
+				2D02E47A1E0B4A5D006451C7 /* Snapfood-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* Snapfood-tvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				1BE65E2220414F138F58207E /* adresat-not-primary.png in Resources */,
+				866B5D32D6204A2C8C28454B /* adresat.png in Resources */,
+				0CA19778767942D1BF619CC7 /* dilni.png in Resources */,
+				13BEEC0DF3A94C23BEF4B43C /* llogaria-juaj.png in Resources */,
+				5FFE56EC442E4B00B89C0D01 /* promocione.png in Resources */,
+				F490F7B312E54010AD0BEB17 /* të-preferuarat.png in Resources */,
+				1E739FFB2F244AC09B9EEC09 /* arrow_right.png in Resources */,
+				E46CA90610D84C0DA5480611 /* arrow250.png in Resources */,
+				11BC0AA160584063855CE09D /* cart.png in Resources */,
+				0418BAB9888C41079C1AD082 /* category.png in Resources */,
+				90226FF501CC44DCA18BF008 /* search.png in Resources */,
+				24FA058E4A014EF9B733CFF6 /* attach.png in Resources */,
+				BB150DC0F2CD4D7B8B7D280C /* camera.png in Resources */,
+				A830CA6A33194338B97B9548 /* ChatIcon.png in Resources */,
+				8A3AD546ED0B42A9969AF237 /* filled-star.png in Resources */,
+				7FB9FDCF875A4ADBB75C9E21 /* half_bckground.png in Resources */,
+				D8FF537CBFC34C96B7674495 /* hand.png in Resources */,
+				A30EE25303E747388214777B /* unfilled-star.png in Resources */,
+				9A75BDEF78334350B73AD1ED /* x-close-ic.png in Resources */,
+				2C2DBF3D752A48BA942C101A /* custom_marker_location.png in Resources */,
+				EC61B742986F4DCF85FBB23B /* happy.png in Resources */,
+				FD23FAC7C350429CB9E1A2CD /* happyinactive.png in Resources */,
+				CF055A30DE2C48E0A946EC6C /* heart.png in Resources */,
+				4D9C5839E5FB4210B0977809 /* heartinactive.png in Resources */,
+				E7D7A5A81A764FB496EA2393 /* neutral.png in Resources */,
+				83C8F7AC4A6D496AB59FBDA7 /* neutralinactive.png in Resources */,
+				7EA5CE02D9764ED286D03BFD /* ok.png in Resources */,
+				5B7A6487CB864047AD3D3218 /* okinactive.png in Resources */,
+				499CDE4FAD4348B4A31154A7 /* sad.png in Resources */,
+				737EF21C33E4444AA7A8EA78 /* sadinactive.png in Resources */,
+				9EF8A19505A44E4686B55CCB /* icon.png in Resources */,
+				4F29D05F6E3F4EEABE8268F1 /* instruksione.png in Resources */,
+				68BA8ED500234D579BD51895 /* ios_icon.png in Resources */,
+				2F466199E3EF4740BC304B67 /* leave_restaurant.png in Resources */,
+				4F33F184A32B49F58EF440B4 /* location_address_icon.png in Resources */,
+				4BE7EB4546EA44938A8B8155 /* location_address_search.png in Resources */,
+				896D4CA42BD74EF98BD42D22 /* addlocation.png in Resources */,
+				25A51EB247E548F2B4578F1D /* favorite.png in Resources */,
+				C8838414BE4F4991A82B9841 /* loc.png in Resources */,
+				FBF60451BEA2452F9148E8FF /* location.png in Resources */,
+				EF0B9F167A81410393280357 /* locwhite.png in Resources */,
+				B0744F4ADC3544689EE8A425 /* mylocation.png in Resources */,
+				FD30CC5E6DAE4272B8B2DA30 /* navigate.png in Resources */,
+				C2065D40AA0A4577A8C88D5C /* whiteLocation.png in Resources */,
+				C9F8CDAAC2A84BEB9AB4878E /* logo_white.png in Resources */,
+				94BFF4B4AE14496EA365C6A2 /* logo.png in Resources */,
+				D2091FEE4ADD40DA8AC29945 /* minus-grey-250.png in Resources */,
+				32CB8681466A4F3C9B5FC3A4 /* motori-3x.png in Resources */,
+				461E71590796416B84D2EE98 /* motori.png in Resources */,
+				7F85F21986B8492482E88478 /* calendar.png in Resources */,
+				34B45474D0BD48F1B41A3701 /* canceled.png in Resources */,
+				C175B86AD1E14012B268C020 /* close.png in Resources */,
+				402AF33D8D854965ADD34C5A /* delivering.png in Resources */,
+				5FCAD80636A140CCA861724E /* done.png in Resources */,
+				4E533F8A745447389CBFC9C9 /* mobile.png in Resources */,
+				C83C101BF64D41C1AB8D8A63 /* noorders.png in Resources */,
+				EABB38E2D0EA4A8AB0755C0A /* re_order.png in Resources */,
+				9E3C2BB0A64F474BA97B19F4 /* bad.png in Resources */,
+				233F80DA2B124F119BB3542F /* badactive.png in Resources */,
+				2E9C9FA1E2CF41C984511841 /* good.png in Resources */,
+				726B4B7A28BF4089B08B5874 /* goodactive.png in Resources */,
+				4A2057FF84B241A0BD1970AE /* neutralactive.png in Resources */,
+				EF4359D00C4E4A0A87448BF9 /* rbad.png in Resources */,
+				C9995E9BBFF342B49177ED00 /* rbadactive.png in Resources */,
+				C527BDD27DEE45BBBA8848A7 /* vgood.png in Resources */,
+				21FCEB88A8524C68AFDEB721 /* vgoodactive.png in Resources */,
+				0B217A3A7B5543B7B88A6202 /* waiting.png in Resources */,
+				E8CC49BFA3F44FD0B1E935AA /* plus-250.png in Resources */,
+				778C7B88DCF64E15A70496B1 /* plus-grey-250.png in Resources */,
+				5951F9A684BD4E9DA443D06A /* arrow_faceup.png in Resources */,
+				6F7B63FBF787451C952806A5 /* checkout_cart.png in Resources */,
+				CEF63441C3094A9BB0C5D858 /* closed-small.png in Resources */,
+				1C29EE517B364409970676BE /* cmimi.png in Resources */,
+				A90D1865CFBA41BC9A4BB562 /* dergesa.png in Resources */,
+				0C6C0813B9DD417FBFAA1A13 /* distance.png in Resources */,
+				3AC639EA3A2947D692C3995C /* filter.png in Resources */,
+				F6F1334EB7D148438D644DB3 /* info.png in Resources */,
+				69034020263B4764B9D35CEB /* location_small.png in Resources */,
+				39C368726A1944E2B8F8C879 /* logoop.png in Resources */,
+				265672B7FBE84BDFB024102A /* minus.png in Resources */,
+				6E46DCC058224FB5B673B1AF /* motor_small.png in Resources */,
+				E96378BB2ACC498BA06AE2B7 /* new-l-small.png in Resources */,
+				8CC702DB32514170A43FC6C0 /* no_res_near.png in Resources */,
+				EE50E98BC96E4EA6A24DFC60 /* nofavorite.png in Resources */,
+				5C7997F9F4314C73AF772935 /* ope_menu.png in Resources */,
+				A1DD7BCF056F47A385FE22C6 /* open_restaurant.png in Resources */,
+				B3F99328FD91489AB234D4EF /* ora.png in Resources */,
+				AB8CFA08242124CA00A84798 /* GoogleService-Info.plist in Resources */,
+				0533B9A507704A6998BE411B /* plus.png in Resources */,
+				5D1F07C7A37F4E9D8A9419B1 /* review.png in Resources */,
+				3B8B742B3FCF447CB85E952C /* rotate.png in Resources */,
+				0EC06C59FF91425DB5230D6F /* share.png in Resources */,
+				EFA20E3339C843E79768DA10 /* sort_location.png in Resources */,
+				D38307B549B84777A4B49BFF /* sort_name.png in Resources */,
+				C68FFFB0F1AD43BEA53A2EF9 /* sort_popular.png in Resources */,
+				93CB4285B4944C49A0BD4B07 /* star_new_small.png in Resources */,
+				322E7F10A37B4FD999D0EF62 /* star.png in Resources */,
+				078EB045DA43406DAF8C4DA1 /* time-new-small.png in Resources */,
+				D03EFB26410642499DA3B4F8 /* white_back.png in Resources */,
+				2DD10591435B4FAD9350E6C3 /* white_info.png in Resources */,
+				51BEABC6983246928AEB1CB3 /* white_share.png in Resources */,
+				DF6A098E11F844749B45341D /* splash.png in Resources */,
+				11CBC645953E4068B321D59C /* active_chat_ic.png in Resources */,
+				7CE81CC2A15B467386CA1ACD /* activechat.png in Resources */,
+				F84AD005B42E40E3AE924E40 /* chat_old.png in Resources */,
+				FBFFB1CDA15C4455AD8605B8 /* chat.png in Resources */,
+				931A7129541D449BADBB2BD3 /* inactive_chat_ic.png in Resources */,
+				7D07D8BD04E84A6992B0250A /* orders.png in Resources */,
+				B9FE3D36A6CE4D92905C43E1 /* ordersactive.png in Resources */,
+				4EC7A8752DD444C8B8D8E028 /* profile.png in Resources */,
+				F459C991A47D48B283FFAABB /* profileactive.png in Resources */,
+				9DA980250D824E949960470B /* restaurants.png in Resources */,
+				8F08434BF2264D19BAFF1EC0 /* restaurantsactive.png in Resources */,
+				0D8B2AF0B9504406A0D6F432 /* searchactive.png in Resources */,
+				5F9D30FA335C46D19256BE29 /* close_modal.png in Resources */,
+				6D2390499B3C430DAE2519AC /* facebook.png in Resources */,
+				045174F0C5E344FAB6EE28F6 /* fork.png in Resources */,
+				39E9117F933C4860A5752F3A /* login_splash.jpg in Resources */,
+				AF59C23AB7084E7BA2710B59 /* welcome.jpg in Resources */,
+				438AF2A61DC844719A970B93 /* fontello.ttf in Resources */,
+				25418C84561145E49CCD8D93 /* SanFranciscoDisplay-Bold.otf in Resources */,
+				838E3204B4844BCCAF6BC9A4 /* SanFranciscoDisplay-Heavy.otf in Resources */,
+				CA79396BA62044B09BA42337 /* SanFranciscoDisplay-Light.otf in Resources */,
+				8369898C51A14AB898DC7DA8 /* SanFranciscoDisplay-Medium.otf in Resources */,
+				39B15D856068430FA10054A0 /* SanFranciscoDisplay-Regular.otf in Resources */,
+				A0C15A1BF4904E849E09AE76 /* SanFranciscoDisplay-Semibold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		392EEE9B6B9A50737053EBC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Snapfood-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BB64F558C2F89945D73D01F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Snapfood-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		828191673A5D9ABAC288A76C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Snapfood/Pods-Snapfood-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Snapfood/Pods-Snapfood-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E59E369A5B8DD6D61712B1E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnapfoodTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F42B1E72D17F820D69343091 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Snapfood-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* SnapfoodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* SnapfoodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* Snapfood */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* Snapfood-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = Snapfood;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F18D37375A9B2CF8A5C3BECA /* Pods-SnapfoodTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SnapfoodTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snapfood.app/Snapfood";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ED62C552EB26085B148B7E3 /* Pods-SnapfoodTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = SnapfoodTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snapfood.app/Snapfood";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F965C6F1F210D8F9DFE09E9D /* Pods-Snapfood.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Snapfood/Snapfood.entitlements;
+				CURRENT_PROJECT_VERSION = 2.9.15;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = K8W6T6FS26;
+				INFOPLIST_FILE = Snapfood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 2.9.15;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.snapfood.al;
+				PRODUCT_NAME = Snapfood;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 396C388A50F80EAB0850E9E7 /* Pods-Snapfood.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Snapfood/Snapfood.entitlements;
+				CURRENT_PROJECT_VERSION = 2.9.15;
+				DEVELOPMENT_TEAM = K8W6T6FS26;
+				INFOPLIST_FILE = Snapfood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 2.9.15;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.snapfood.al;
+				PRODUCT_NAME = Snapfood;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3E017C905749A5FFC5A4974 /* Pods-Snapfood-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Snapfood-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Snapfood-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F224D59844C4CB3649169BC3 /* Pods-Snapfood-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Snapfood-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Snapfood-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8530A960FC05942BF583523B /* Pods-Snapfood-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Snapfood-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Snapfood-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snapfood-tvOS.app/Snapfood-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65E0A632D75ECBE3E4156CCC /* Pods-Snapfood-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Snapfood-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Snapfood-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snapfood-tvOS.app/Snapfood-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SnapfoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Snapfood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Snapfood-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Snapfood-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Snapfood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
