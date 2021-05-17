@@ -23,6 +23,13 @@ export default {
     WelcomeChatScreen: 'WelcomeChatScreen',
     OfflineContactSupportScreen: 'OfflineContactSupportScreen',
     ChatScreen: 'ChatScreen',
+    NewCallScreen: 'NewCallScreen',
+    NewChatScreen: 'NewChatScreen',
+    InvitationsScreen: 'InvitationsScreen',
+    SnapfoodMapScreen: 'SnapfoodMapScreen',
+    MyFriendsScreen: 'MyFriendsScreen',
+    SnapfoodersScreen: 'SnapfoodersScreen',
+    CallScreen: 'CallScreen',
 
     OrdersStack: 'OrdersStack',
     OrdersScreen: 'OrdersScreen',

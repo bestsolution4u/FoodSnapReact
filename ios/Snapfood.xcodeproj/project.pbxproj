@@ -146,6 +146,41 @@
 		FBFFB1CDA15C4455AD8605B8 /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 280098CD167E4F939F275ECD /* chat.png */; };
 		FD23FAC7C350429CB9E1A2CD /* happyinactive.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9A12A0580D4A60B143DE4C /* happyinactive.png */; };
 		FD30CC5E6DAE4272B8B2DA30 /* navigate.png in Resources */ = {isa = PBXBuildFile; fileRef = 224C86799AD543EE9527C4B6 /* navigate.png */; };
+		13CA9167D1A44C468EA7B7E4 /* auth_background.png in Resources */ = {isa = PBXBuildFile; fileRef = C025375F876E46ADAEE76B89 /* auth_background.png */; };
+		6F9BDA89A1344BBF848C022C /* auth_envelope_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A09557CB9C734B24AAE5CF70 /* auth_envelope_icon.png */; };
+		C7BD35F0D7534764A92AA2A7 /* auth_facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 97CCFEBF8CC24F949EDDC24F /* auth_facebook.png */; };
+		BC3CEE1BECCC476E8DB4DEAD /* auth_lock_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 452C2047B85B4023B001024A /* auth_lock_icon.png */; };
+		674382A818844670A12F7A1B /* auth_phone_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6320C38BFD904A3787C35295 /* auth_phone_icon.png */; };
+		EDA318E919624BE1BEBF8358 /* auth_user_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D5F4D6A272441BBCDC8FA9 /* auth_user_icon.png */; };
+		97807D1D758F4517AC52A7C3 /* blog-setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF80FB89AF940378BF88696 /* blog-setting.png */; };
+		E53D4CEF681541E5A4A8AD99 /* blog.png in Resources */ = {isa = PBXBuildFile; fileRef = EAB2F1FED4FC4FC383AA89AB /* blog.png */; };
+		0F109859EC0C4BF297E3479F /* noblog.png in Resources */ = {isa = PBXBuildFile; fileRef = D920AABEE9B04A1E97521420 /* noblog.png */; };
+		42C016771DB144C98C47B411 /* nopromo.png in Resources */ = {isa = PBXBuildFile; fileRef = 350FADFC23804EA1A3DB29A3 /* nopromo.png */; };
+		6F2B6D8E2746447A8FCA5E49 /* noti.png in Resources */ = {isa = PBXBuildFile; fileRef = 13718FFB98ED45F0AE4CF208 /* noti.png */; };
+		B91D13F010CB4A389F9389AB /* promo.png in Resources */ = {isa = PBXBuildFile; fileRef = BBB1D8C86C0542978F6222D8 /* promo.png */; };
+		584381B565E74F22853A4FD3 /* black_share.png in Resources */ = {isa = PBXBuildFile; fileRef = 22F3BEDFAA0D420195A4B5D4 /* black_share.png */; };
+		401CE718A613438199CA0A39 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4233034B941345F8A54C392E /* Ionicons.ttf */; };
+		36A8F94579914BFBBF17E8F1 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0E8F60DD7C64B2CB7CCD1AB /* AntDesign.ttf */; };
+		ED10691C7B2D4AFDB5DC4F90 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C1078362C5A435D86C9625E /* Entypo.ttf */; };
+		FB5C908E68DF40FDB69CAEB9 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3D5FCB3F7254C9A864D8691 /* EvilIcons.ttf */; };
+		CA56147FE82B49D5AD88FF8A /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48411F912D104B0B8D6D74DD /* Feather.ttf */; };
+		4E51E9F80E114F4D9D78A794 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 995C9718510943A38902527E /* FontAwesome.ttf */; };
+		A6F029347D7B4BA6983115AC /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC90948D6E1C43D88B277037 /* FontAwesome5_Brands.ttf */; };
+		2CA535633EC4498F98FE3A21 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 846ADA0DFEEC46D392461867 /* FontAwesome5_Regular.ttf */; };
+		FCBA68F8FD554F7582B7E05C /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 856D759774D2437EB653B4A1 /* FontAwesome5_Solid.ttf */; };
+		71FD58E3E8BF47C385F7D7B2 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE5E4D05E8964BEAAC5858A9 /* Fontisto.ttf */; };
+		99AFC88D68BA43399ABE38CD /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B84F1EC8448B4CC4B4ED473F /* Foundation.ttf */; };
+		DBFA0C9843DC474AA870764F /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DE5EF2ED05A4ED48AD74F62 /* MaterialCommunityIcons.ttf */; };
+		8A3C8E5CCF5E40FDBAA5368C /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73F198FDE1304B07ADCB1FE2 /* MaterialIcons.ttf */; };
+		5A8EFB40642B497FA211CD18 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067BAC6EE28445C1BA0E48ED /* Octicons.ttf */; };
+		0F1656B16E404BE29EEC7E7B /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80956DCE78174B6C85739F36 /* SimpleLineIcons.ttf */; };
+		AA731128867949568C9A0265 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54BF469A7AEF43CF8A956B34 /* Zocial.ttf */; };
+		6C63A35676CB4FF381267031 /* icon-add-call.png in Resources */ = {isa = PBXBuildFile; fileRef = E51BC32DC1DB4FA78DDB2000 /* icon-add-call.png */; };
+		13AC76ADA9B7476FBDC801AA /* icon-add-chat.png in Resources */ = {isa = PBXBuildFile; fileRef = CC1961BD8D184D97BFA7ADAA /* icon-add-chat.png */; };
+		8B186B803E16405EA70E8D22 /* icon-call-incoming.png in Resources */ = {isa = PBXBuildFile; fileRef = E2CC8AACC8F744418985BB93 /* icon-call-incoming.png */; };
+		FB6A205169F04FD383680B59 /* icon-call-missed.png in Resources */ = {isa = PBXBuildFile; fileRef = 57C250BB4BCD4926AB48C3A5 /* icon-call-missed.png */; };
+		075B003684624FD5A1621DC8 /* icon-call-outgoing.png in Resources */ = {isa = PBXBuildFile; fileRef = A4664EAF42F04062B9745F32 /* icon-call-outgoing.png */; };
+		CC68B14DE19D435FA96353BA /* icon-more-vertical.png in Resources */ = {isa = PBXBuildFile; fileRef = 3037D100399A43E7A2CE8908 /* icon-more-vertical.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -320,6 +355,41 @@
 		F88AD38212FC40EA9660EA7C /* mylocation.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = mylocation.png; path = ../src/common/assets/images/location/mylocation.png; sourceTree = "<group>"; };
 		F965C6F1F210D8F9DFE09E9D /* Pods-Snapfood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapfood.debug.xcconfig"; path = "Target Support Files/Pods-Snapfood/Pods-Snapfood.debug.xcconfig"; sourceTree = "<group>"; };
 		FB92254A286C45679BF6F832 /* sort_name.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = sort_name.png; path = ../src/common/assets/images/restaurant/sort_name.png; sourceTree = "<group>"; };
+		C025375F876E46ADAEE76B89 /* auth_background.png */ = {isa = PBXFileReference; name = "auth_background.png"; path = "../src/common/assets/images/auth/auth_background.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A09557CB9C734B24AAE5CF70 /* auth_envelope_icon.png */ = {isa = PBXFileReference; name = "auth_envelope_icon.png"; path = "../src/common/assets/images/auth/auth_envelope_icon.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		97CCFEBF8CC24F949EDDC24F /* auth_facebook.png */ = {isa = PBXFileReference; name = "auth_facebook.png"; path = "../src/common/assets/images/auth/auth_facebook.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		452C2047B85B4023B001024A /* auth_lock_icon.png */ = {isa = PBXFileReference; name = "auth_lock_icon.png"; path = "../src/common/assets/images/auth/auth_lock_icon.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6320C38BFD904A3787C35295 /* auth_phone_icon.png */ = {isa = PBXFileReference; name = "auth_phone_icon.png"; path = "../src/common/assets/images/auth/auth_phone_icon.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E3D5F4D6A272441BBCDC8FA9 /* auth_user_icon.png */ = {isa = PBXFileReference; name = "auth_user_icon.png"; path = "../src/common/assets/images/auth/auth_user_icon.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6BF80FB89AF940378BF88696 /* blog-setting.png */ = {isa = PBXFileReference; name = "blog-setting.png"; path = "../src/common/assets/images/blog-setting.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EAB2F1FED4FC4FC383AA89AB /* blog.png */ = {isa = PBXFileReference; name = "blog.png"; path = "../src/common/assets/images/blog.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D920AABEE9B04A1E97521420 /* noblog.png */ = {isa = PBXFileReference; name = "noblog.png"; path = "../src/common/assets/images/noblog.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		350FADFC23804EA1A3DB29A3 /* nopromo.png */ = {isa = PBXFileReference; name = "nopromo.png"; path = "../src/common/assets/images/nopromo.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		13718FFB98ED45F0AE4CF208 /* noti.png */ = {isa = PBXFileReference; name = "noti.png"; path = "../src/common/assets/images/noti.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BBB1D8C86C0542978F6222D8 /* promo.png */ = {isa = PBXFileReference; name = "promo.png"; path = "../src/common/assets/images/promo.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		22F3BEDFAA0D420195A4B5D4 /* black_share.png */ = {isa = PBXFileReference; name = "black_share.png"; path = "../src/common/assets/images/restaurant/black_share.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4233034B941345F8A54C392E /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../src/theme/fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B0E8F60DD7C64B2CB7CCD1AB /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9C1078362C5A435D86C9625E /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C3D5FCB3F7254C9A864D8691 /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		48411F912D104B0B8D6D74DD /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		995C9718510943A38902527E /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BC90948D6E1C43D88B277037 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		846ADA0DFEEC46D392461867 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		856D759774D2437EB653B4A1 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BE5E4D05E8964BEAAC5858A9 /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B84F1EC8448B4CC4B4ED473F /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1DE5EF2ED05A4ED48AD74F62 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		73F198FDE1304B07ADCB1FE2 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		067BAC6EE28445C1BA0E48ED /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		80956DCE78174B6C85739F36 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		54BF469A7AEF43CF8A956B34 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E51BC32DC1DB4FA78DDB2000 /* icon-add-call.png */ = {isa = PBXFileReference; name = "icon-add-call.png"; path = "../src/common/assets/images/chat/icon-add-call.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CC1961BD8D184D97BFA7ADAA /* icon-add-chat.png */ = {isa = PBXFileReference; name = "icon-add-chat.png"; path = "../src/common/assets/images/chat/icon-add-chat.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E2CC8AACC8F744418985BB93 /* icon-call-incoming.png */ = {isa = PBXFileReference; name = "icon-call-incoming.png"; path = "../src/common/assets/images/chat/icon-call-incoming.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		57C250BB4BCD4926AB48C3A5 /* icon-call-missed.png */ = {isa = PBXFileReference; name = "icon-call-missed.png"; path = "../src/common/assets/images/chat/icon-call-missed.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A4664EAF42F04062B9745F32 /* icon-call-outgoing.png */ = {isa = PBXFileReference; name = "icon-call-outgoing.png"; path = "../src/common/assets/images/chat/icon-call-outgoing.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3037D100399A43E7A2CE8908 /* icon-more-vertical.png */ = {isa = PBXFileReference; name = "icon-more-vertical.png"; path = "../src/common/assets/images/chat/icon-more-vertical.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -581,6 +651,41 @@
 				C89970EECA7145D9985408B0 /* SanFranciscoDisplay-Medium.otf */,
 				233C30F72DA244C7A2108AE7 /* SanFranciscoDisplay-Regular.otf */,
 				ED606ED23CBC4C3D9568565E /* SanFranciscoDisplay-Semibold.otf */,
+				C025375F876E46ADAEE76B89 /* auth_background.png */,
+				A09557CB9C734B24AAE5CF70 /* auth_envelope_icon.png */,
+				97CCFEBF8CC24F949EDDC24F /* auth_facebook.png */,
+				452C2047B85B4023B001024A /* auth_lock_icon.png */,
+				6320C38BFD904A3787C35295 /* auth_phone_icon.png */,
+				E3D5F4D6A272441BBCDC8FA9 /* auth_user_icon.png */,
+				6BF80FB89AF940378BF88696 /* blog-setting.png */,
+				EAB2F1FED4FC4FC383AA89AB /* blog.png */,
+				D920AABEE9B04A1E97521420 /* noblog.png */,
+				350FADFC23804EA1A3DB29A3 /* nopromo.png */,
+				13718FFB98ED45F0AE4CF208 /* noti.png */,
+				BBB1D8C86C0542978F6222D8 /* promo.png */,
+				22F3BEDFAA0D420195A4B5D4 /* black_share.png */,
+				4233034B941345F8A54C392E /* Ionicons.ttf */,
+				B0E8F60DD7C64B2CB7CCD1AB /* AntDesign.ttf */,
+				9C1078362C5A435D86C9625E /* Entypo.ttf */,
+				C3D5FCB3F7254C9A864D8691 /* EvilIcons.ttf */,
+				48411F912D104B0B8D6D74DD /* Feather.ttf */,
+				995C9718510943A38902527E /* FontAwesome.ttf */,
+				BC90948D6E1C43D88B277037 /* FontAwesome5_Brands.ttf */,
+				846ADA0DFEEC46D392461867 /* FontAwesome5_Regular.ttf */,
+				856D759774D2437EB653B4A1 /* FontAwesome5_Solid.ttf */,
+				BE5E4D05E8964BEAAC5858A9 /* Fontisto.ttf */,
+				B84F1EC8448B4CC4B4ED473F /* Foundation.ttf */,
+				1DE5EF2ED05A4ED48AD74F62 /* MaterialCommunityIcons.ttf */,
+				73F198FDE1304B07ADCB1FE2 /* MaterialIcons.ttf */,
+				067BAC6EE28445C1BA0E48ED /* Octicons.ttf */,
+				80956DCE78174B6C85739F36 /* SimpleLineIcons.ttf */,
+				54BF469A7AEF43CF8A956B34 /* Zocial.ttf */,
+				E51BC32DC1DB4FA78DDB2000 /* icon-add-call.png */,
+				CC1961BD8D184D97BFA7ADAA /* icon-add-chat.png */,
+				E2CC8AACC8F744418985BB93 /* icon-call-incoming.png */,
+				57C250BB4BCD4926AB48C3A5 /* icon-call-missed.png */,
+				A4664EAF42F04062B9745F32 /* icon-call-outgoing.png */,
+				3037D100399A43E7A2CE8908 /* icon-more-vertical.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -856,6 +961,41 @@
 				8369898C51A14AB898DC7DA8 /* SanFranciscoDisplay-Medium.otf in Resources */,
 				39B15D856068430FA10054A0 /* SanFranciscoDisplay-Regular.otf in Resources */,
 				A0C15A1BF4904E849E09AE76 /* SanFranciscoDisplay-Semibold.otf in Resources */,
+				13CA9167D1A44C468EA7B7E4 /* auth_background.png in Resources */,
+				6F9BDA89A1344BBF848C022C /* auth_envelope_icon.png in Resources */,
+				C7BD35F0D7534764A92AA2A7 /* auth_facebook.png in Resources */,
+				BC3CEE1BECCC476E8DB4DEAD /* auth_lock_icon.png in Resources */,
+				674382A818844670A12F7A1B /* auth_phone_icon.png in Resources */,
+				EDA318E919624BE1BEBF8358 /* auth_user_icon.png in Resources */,
+				97807D1D758F4517AC52A7C3 /* blog-setting.png in Resources */,
+				E53D4CEF681541E5A4A8AD99 /* blog.png in Resources */,
+				0F109859EC0C4BF297E3479F /* noblog.png in Resources */,
+				42C016771DB144C98C47B411 /* nopromo.png in Resources */,
+				6F2B6D8E2746447A8FCA5E49 /* noti.png in Resources */,
+				B91D13F010CB4A389F9389AB /* promo.png in Resources */,
+				584381B565E74F22853A4FD3 /* black_share.png in Resources */,
+				401CE718A613438199CA0A39 /* Ionicons.ttf in Resources */,
+				36A8F94579914BFBBF17E8F1 /* AntDesign.ttf in Resources */,
+				ED10691C7B2D4AFDB5DC4F90 /* Entypo.ttf in Resources */,
+				FB5C908E68DF40FDB69CAEB9 /* EvilIcons.ttf in Resources */,
+				CA56147FE82B49D5AD88FF8A /* Feather.ttf in Resources */,
+				4E51E9F80E114F4D9D78A794 /* FontAwesome.ttf in Resources */,
+				A6F029347D7B4BA6983115AC /* FontAwesome5_Brands.ttf in Resources */,
+				2CA535633EC4498F98FE3A21 /* FontAwesome5_Regular.ttf in Resources */,
+				FCBA68F8FD554F7582B7E05C /* FontAwesome5_Solid.ttf in Resources */,
+				71FD58E3E8BF47C385F7D7B2 /* Fontisto.ttf in Resources */,
+				99AFC88D68BA43399ABE38CD /* Foundation.ttf in Resources */,
+				DBFA0C9843DC474AA870764F /* MaterialCommunityIcons.ttf in Resources */,
+				8A3C8E5CCF5E40FDBAA5368C /* MaterialIcons.ttf in Resources */,
+				5A8EFB40642B497FA211CD18 /* Octicons.ttf in Resources */,
+				0F1656B16E404BE29EEC7E7B /* SimpleLineIcons.ttf in Resources */,
+				AA731128867949568C9A0265 /* Zocial.ttf in Resources */,
+				6C63A35676CB4FF381267031 /* icon-add-call.png in Resources */,
+				13AC76ADA9B7476FBDC801AA /* icon-add-chat.png in Resources */,
+				8B186B803E16405EA70E8D22 /* icon-call-incoming.png in Resources */,
+				FB6A205169F04FD383680B59 /* icon-call-missed.png in Resources */,
+				075B003684624FD5A1621DC8 /* icon-call-outgoing.png in Resources */,
+				CC68B14DE19D435FA96353BA /* icon-more-vertical.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
