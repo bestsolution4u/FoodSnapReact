@@ -31,6 +31,7 @@ class CallScreen extends React.Component {
         let speakerImage = speakerActive ? require('../../../common/assets/images/chat/speaker_active.png') : require('../../../common/assets/images/chat/speaker_inactive.png');
         return (
             <View style={styles.container}>
+                <StatusBar translucent backgroundColor='transparent' />
                 <Image
                     style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}
                     resizeMode='cover'

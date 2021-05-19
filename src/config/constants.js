@@ -1,5 +1,47 @@
 import {translate} from '../common/services/translate';
 
+export const SNAPFOODERS = [
+    {
+        type: 'user',
+        avatar: 'https://i.pravatar.cc/150?img=7',
+        gender: 'male',
+        name: 'Jose Jackson',
+        latitude: 37.42,
+        longitude: -122.095,
+    },
+    {
+        type: 'user',
+        avatar: 'https://i.pravatar.cc/150?img=56',
+        name: 'Mary Ann Miller',
+        gender: 'female',
+        latitude: 37.4,
+        longitude: -122.09,
+    },
+    {
+        type: 'user',
+        avatar: 'https://i.pravatar.cc/150?img=32',
+        name: 'Jerry Stewart',
+        gender: 'male',
+        latitude: 37.43,
+        longitude: -122.075
+    },
+    {
+        type: 'user',
+        avatar: 'https://i.pravatar.cc/150?img=13',
+        name: 'Alan Matthews',
+        gender: 'female',
+        latitude: 37.45,
+        longitude: -122.07
+    },
+    {
+        type: 'restaurant',
+        avatar: 'https://i.pravatar.cc/150?img=13',
+        name: 'Test Restaurant',
+        latitude: 37.44,
+        longitude: -122.0834
+    },
+];
+
 export const CHAT_HISTORY = [
     {
         avatar: 'https://i.pravatar.cc/150?img=7',
