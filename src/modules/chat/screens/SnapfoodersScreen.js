@@ -3,8 +3,9 @@ import {StyleSheet, TouchableOpacity, StatusBar, View, Text, FlatList, Image} fr
 import {withNavigation} from 'react-navigation';
 import {connect} from 'react-redux';
 import BackButton from "../../../common/components/buttons/back_button";
-import AppSearchBox from "../../../common/components/search/app_searchbox";
-import {CALL_HISTORY, CHAT_HISTORY} from "../../../config/constants";
+import SearchBox from "../../../common/components/social/search/SearchBox";
+import {translate} from '../../../common/services/translate';
+import {CHAT_HISTORY} from "../../../config/constants";
 import FastImage from "react-native-fast-image";
 
 class SnapfoodersScreen extends React.Component {
@@ -47,7 +48,7 @@ class SnapfoodersScreen extends React.Component {
     renderSearchBar() {
         return (
             <View style={styles.searchContainer}>
-                <AppSearchBox onChangeText={this.onChangeSearch} hint={'Search for names of cities'}/>
+                <SearchBox onChangeText={this.onChangeSearch} hint={translate('social.search.snapfooders')}/>
             </View>
         );
     }

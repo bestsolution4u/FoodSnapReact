@@ -5,7 +5,8 @@ import {connect} from 'react-redux';
 import {sendMessage, setMessagesSeen} from '../../../store/actions/chat';
 import RouteNames from '../../../routes/names';
 import IconBorderButton from "../../../common/components/buttons/icon_border_button";
-import AppSearchBox from "../../../common/components/search/app_searchbox";
+import SearchBox from "../../../common/components/social/search/SearchBox";
+import {translate} from '../../../common/services/translate';
 import {CALL_HISTORY, CHAT_HISTORY} from "../../../config/constants";
 import FastImage from "react-native-fast-image";
 import {white} from "react-native-ios-kit/src/styles/colors";
@@ -80,7 +81,7 @@ class ChatScreen extends React.Component {
     renderSearchbar() {
         const {isChatList} = this.state;
         return (<View style={styles.searchContainer}>
-            <AppSearchBox onChangeText={this.onChangeSearch}/>
+            <SearchBox onChangeText={this.onChangeSearch}  hint={translate('social.search.chat')}/>
             <View style={styles.spaceRow}/>
             <IconBorderButton
                 icon={isChatList ? require('../../../common/assets/images/chat/icon-add-chat.png') : require('../../../common/assets/images/chat/icon-add-call.png')}

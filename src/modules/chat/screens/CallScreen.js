@@ -2,11 +2,6 @@ import React from 'react';
 import {StyleSheet, TouchableOpacity, StatusBar, View, Text, FlatList, Image} from 'react-native';
 import {withNavigation} from 'react-navigation';
 import {connect} from 'react-redux';
-import RouteNames from '../../../routes/names';
-import {sendMessage, setMessagesSeen} from "../../../store/actions/chat";
-import BackButton from "../../../common/components/buttons/back_button";
-import AppSearchBox from "../../../common/components/search/app_searchbox";
-import {CALL_HISTORY, CHAT_HISTORY} from "../../../config/constants";
 import FastImage from "react-native-fast-image";
 
 class CallScreen extends React.Component {

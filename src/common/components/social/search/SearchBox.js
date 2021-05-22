@@ -2,7 +2,7 @@ import React, {memo} from 'react';
 import {TextInput, StyleSheet, View} from 'react-native';
 import {default as EvilIcon} from 'react-native-vector-icons/EvilIcons';
 
-const AppSearchBox = memo(({onChangeText, hint = 'Type your message...'}) => {
+const SearchBox = memo(({onChangeText, hint = 'Search'}) => {
     return (
         <View style={styles.container}>
             <EvilIcon name="search" size={32} color={'#D5D4E0'}/>
@@ -37,4 +37,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default AppSearchBox;
+export default SearchBox;

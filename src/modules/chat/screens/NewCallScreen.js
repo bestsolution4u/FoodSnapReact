@@ -3,10 +3,11 @@ import {StyleSheet, TouchableOpacity, StatusBar, View, Text, FlatList} from 'rea
 import {withNavigation} from 'react-navigation';
 import {connect} from 'react-redux';
 import BackButton from "../../../common/components/buttons/back_button";
-import AppSearchBox from "../../../common/components/search/app_searchbox";
+import SearchBox from "../../../common/components/social/search/SearchBox";
 import {CALL_HISTORY, CHAT_HISTORY} from "../../../config/constants";
 import FastImage from "react-native-fast-image";
 import RouteNames from "../../../routes/names";
+import {translate} from '../../../common/services/translate';
 
 class NewCallScreen extends React.Component {
     constructor(props) {
@@ -52,7 +53,7 @@ class NewCallScreen extends React.Component {
     renderSearchBar() {
         return (
             <View style={styles.searchContainer}>
-                <AppSearchBox onChangeText={this.onChangeSearch} hint={'Search for names of cities'}/>
+                <SearchBox onChangeText={this.onChangeSearch} hint={translate('social.search.new_call')}/>
             </View>
         );
     }
