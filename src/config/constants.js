@@ -1,5 +1,151 @@
 import {translate} from '../common/services/translate';
 
+export const SNAPFOODERS = [
+    {
+        type: 'user',
+        avatar: 'https://i.pravatar.cc/150?img=7',
+        gender: 'male',
+        name: 'Jose Jackson',
+        latitude: 37.42,
+        longitude: -122.095,
+    },
+    {
+        type: 'user',
+        avatar: 'https://i.pravatar.cc/150?img=56',
+        name: 'Mary Ann Miller',
+        gender: 'female',
+        latitude: 37.4,
+        longitude: -122.09,
+    },
+    {
+        type: 'user',
+        avatar: 'https://i.pravatar.cc/150?img=32',
+        name: 'Jerry Stewart',
+        gender: 'male',
+        latitude: 37.43,
+        longitude: -122.075
+    },
+    {
+        type: 'user',
+        avatar: 'https://i.pravatar.cc/150?img=13',
+        name: 'Alan Matthews',
+        gender: 'female',
+        latitude: 37.45,
+        longitude: -122.07
+    },
+    {
+        type: 'restaurant',
+        avatar: 'https://i.pravatar.cc/150?img=13',
+        name: 'Test Restaurant',
+        latitude: 37.44,
+        longitude: -122.0834
+    },
+];
+
+export const CHAT_HISTORY = [
+    {
+        avatar: 'https://i.pravatar.cc/150?img=7',
+        name: 'Jose Jackson',
+        time: '2:30 PM',
+        lastMessage: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eir...',
+        unreadCount: 2
+    },
+    {
+        avatar: 'https://i.pravatar.cc/150?img=56',
+        name: 'Mary Ann Miller',
+        time: '2:00 PM',
+        lastMessage: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eir...',
+        unreadCount: 2
+    },
+    {
+        avatar: 'https://i.pravatar.cc/150?img=32',
+        name: 'Jerry Stewart',
+        time: 'Wednesday',
+        lastMessage: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eir...',
+        unreadCount: 1
+    },
+    {
+        avatar: 'https://i.pravatar.cc/150?img=13',
+        name: 'Alan Matthews',
+        time: 'Wednesday',
+        lastMessage: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eir...',
+        unreadCount: 0
+    },
+    {
+        avatar: 'https://i.pravatar.cc/150?img=33',
+        name: 'Amanda Diaz',
+        time: 'Tuesday',
+        lastMessage: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eir...',
+        unreadCount: 0
+    },
+    {
+        avatar: 'https://i.pravatar.cc/150?img=1',
+        name: 'Aaron Hoffman',
+        time: '10/3/2021',
+        lastMessage: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eir...',
+        unreadCount: 0
+    },
+    {
+        avatar: 'https://i.pravatar.cc/150?img=67',
+        name: 'Aaron Hoffman',
+        time: '10/3/2021',
+        lastMessage: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eir...',
+        unreadCount: 0
+    }
+];
+
+export const CALL_HISTORY = [
+    {
+        avatar: 'https://i.pravatar.cc/150?img=67',
+        name: 'Jose Jackson',
+        time: '2:30 PM',
+        lastCall: 'Incoming',
+        missedCount: 3
+    },
+    {
+        avatar: 'https://i.pravatar.cc/150?img=1',
+        name: 'Joan Palmer',
+        time: '2:00 PM',
+        lastCall: 'Incoming',
+        missedCount: 0
+    },
+    {
+        avatar: 'https://i.pravatar.cc/150?img=33',
+        name: 'Jerry Stewart',
+        time: 'Wednesday',
+        lastCall: 'Incoming',
+        missedCount: 1
+    },
+    {
+        avatar: 'https://i.pravatar.cc/150?img=13',
+        name: 'Alan Matthews',
+        time: 'Wednesday',
+        lastCall: 'Incoming',
+        missedCount: 0
+    },
+    {
+        avatar: 'https://i.pravatar.cc/150?img=32',
+        name: 'Amanda Diaz',
+        time: 'Tuesday',
+        lastCall: 'Outgoing',
+        missedCount: 0
+    },
+    {
+        avatar: 'https://i.pravatar.cc/150?img=56',
+        name: 'Aaron Hoffman',
+        time: '10/3/2021',
+        lastCall: 'Incoming',
+        missedCount: 1
+    },
+    {
+        avatar: 'https://i.pravatar.cc/150?img=7',
+        name: 'Aaron Hoffman',
+        time: '10/3/2021',
+        lastCall: 'Incoming',
+        missedCount: 0
+    }
+];
+
 export const REACTIONS = [
     {
         emotion: 1,

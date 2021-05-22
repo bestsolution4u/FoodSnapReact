@@ -575,4 +575,13 @@ export default {
 			more_then_once: '{{times}} herë',
 		},
 	},
+	social: {
+		search: {
+			chat: 'Search for messages or users',
+			friends: 'Search for names',
+			snapfooders: 'Search for names',
+			new_chat: 'Search for names',
+			new_call: 'Search for names',
+		}
+	}
 };

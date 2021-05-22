@@ -31,6 +31,13 @@ import EditPhoneScreen from '../modules/profile/screens/EditPhoneScreen';
 import BlogScreen from '../modules/profile/screens/BlogScreen';
 import BlogDetailsScreen from '../modules/profile/screens/BlogDetailsScreen';
 import PromotionsScreen from '../modules/profile/screens/PromotionsScreen';
+import NewCallScreen from "../modules/chat/screens/NewCallScreen";
+import NewChatScreen from "../modules/chat/screens/NewChatScreen";
+import InvitationsScreen from "../modules/chat/screens/InvitationsScreen";
+import SnapfoodMapScreen from "../modules/chat/screens/SnapfoodMapScreen";
+import MyFriendsScreen from "../modules/chat/screens/MyFriendsScreen";
+import SnapfoodersScreen from "../modules/chat/screens/SnapfoodersScreen";
+import CallScreen from "../modules/chat/screens/CallScreen";
 
 const defaultHeaderObject = {
   header: (props) => <Header scene={props.scene} />,
@@ -82,6 +89,14 @@ export const ChatStack = createDefaultStackModuleNavigator(
   {
     [RouteNames.WelcomeChatScreen]: { screen: WelcomeChatScreen },
     [RouteNames.ChatScreen]: { screen: ChatScreen },
+    [RouteNames.NewCallScreen]: { screen: NewCallScreen },
+    [RouteNames.NewChatScreen]: { screen: NewChatScreen },
+    [RouteNames.NewChatScreen]: { screen: NewChatScreen },
+    [RouteNames.InvitationsScreen]: { screen: InvitationsScreen },
+    [RouteNames.SnapfoodMapScreen]: { screen: SnapfoodMapScreen },
+    [RouteNames.MyFriendsScreen]: { screen: MyFriendsScreen },
+    [RouteNames.SnapfoodersScreen]: { screen: SnapfoodersScreen },
+    [RouteNames.CallScreen]: { screen: CallScreen },
     [RouteNames.OfflineContactSupportScreen]: { screen: OfflineContactSupportScreen },
   },
   { defaultNavigationOptions: { ...defaultHeaderObject } }

@@ -18,4 +18,4 @@ const live = {
 	WEB_PAGE_URL: 'https://snapfood.al/',
 };
 
-export default beta;
+export default live;

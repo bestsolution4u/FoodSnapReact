@@ -566,9 +566,18 @@ export default {
 		},
 		how_many_times_can_be_used: {
 			title: 'How many times can be used?',
-			'0': 'Pa limit',
+			'0': 'No limit',
 			once: '1 time',
 			more_then_once: '{{times}} times',
 		},
 	},
+	social: {
+		search: {
+			chat: 'Search for messages or users',
+			friends: 'Search for names',
+			snapfooders: 'Search for names',
+			new_chat: 'Search for names',
+			new_call: 'Search for names',
+		}
+	}
 };
