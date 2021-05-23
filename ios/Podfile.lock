@@ -359,8 +359,10 @@ PODS:
     - ReactCommon/jscallinvoker (= 0.61.5)
   - ReactNativeGetLocation (1.4.2):
     - React
-  - RNDeviceInfo (5.4.1):
-    - React
+  - RNAppleAuthentication (2.1.0):
+    - React-Core
+  - RNDeviceInfo (6.2.1):
+    - React-Core
   - RNFastImage (7.0.2):
     - React
     - SDWebImage (~> 5.0)
@@ -435,6 +437,7 @@ DEPENDENCIES:
   - ReactCommon/jscallinvoker (from `../node_modules/react-native/ReactCommon`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - ReactNativeGetLocation (from `../node_modules/react-native-get-location`)
+  - "RNAppleAuthentication (from `../node_modules/@invertase/react-native-apple-authentication`)"
   - RNDeviceInfo (from `../node_modules/react-native-device-info`)
   - RNFastImage (from `../node_modules/react-native-fast-image`)
   - RNFirebase (from `../node_modules/react-native-firebase/ios`)
@@ -448,17 +451,13 @@ DEPENDENCIES:
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - boost-for-react-native
+    - Crashlytics
+    - Fabric
     - FBSDKCoreKit
     - FBSDKLoginKit
     - FBSDKShareKit
-    - libwebp
-    - SDWebImage
-    - SDWebImageWebPCoder
-  trunk:
-    - Crashlytics
-    - Fabric
     - Firebase
     - FirebaseAnalytics
     - FirebaseAnalyticsInterop
@@ -473,8 +472,11 @@ SPEC REPOS:
     - GoogleMaps
     - GooglePlaces
     - GoogleUtilities
+    - libwebp
     - nanopb
     - Protobuf
+    - SDWebImage
+    - SDWebImageWebPCoder
 
 EXTERNAL SOURCES:
   DoubleConversion:
@@ -543,6 +545,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   ReactNativeGetLocation:
     :path: "../node_modules/react-native-get-location"
+  RNAppleAuthentication:
+    :path: "../node_modules/@invertase/react-native-apple-authentication"
   RNDeviceInfo:
     :path: "../node_modules/react-native-device-info"
   RNFastImage:
@@ -568,9 +572,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
-  Crashlytics: 540b7e5f5da5a042647227a5e3ac51d85eed06df
+  Crashlytics: 9220f5bc89e7a618df411b4f639389dbfb0e03d2
   DoubleConversion: 5805e889d232975c086db112ece9ed034df7a0b2
-  Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
+  Fabric: ea977e3cd9c20425516d3dafd3bf8c941c51223f
   FBLazyVector: aaeaf388755e4f29cd74acbc9e3b8da6d807c37f
   FBReactNativeSpec: 118d0d177724c2d67f08a59136eb29ef5943ec75
   FBSDKCoreKit: e7dcac0aabcfb09d0166998edd95fe3b05a0ce5d
@@ -623,7 +627,8 @@ SPEC CHECKSUMS:
   React-RCTVibration: a49a1f42bf8f5acf1c3e297097517c6b3af377ad
   ReactCommon: 198c7c8d3591f975e5431bec1b0b3b581aa1c5dd
   ReactNativeGetLocation: a1119b3da9ed41c830f15de5c936e2a820c1684d
-  RNDeviceInfo: 0e40d9a9031252d2525d8b69a4b3fa8689efcea4
+  RNAppleAuthentication: 46cbc67739bae83ca229497f9b0038f3f5431443
+  RNDeviceInfo: 9b6aba9ffaed69ecb72bd13c7bcb0debf277bc9f
   RNFastImage: 9b0c22643872bb7494c8d87bbbb66cc4c0d9e7a2
   RNFirebase: 37daa9a346d070f9f6ee1f3b4aaf4c8e3b1d5d1c
   RNGestureHandler: 02905abe54e1f6e59c081a10b4bd689721e17aa6
@@ -639,4 +644,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 90e11a7d87e7cb08a875796a06a38ef4a7d50334
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.10.1

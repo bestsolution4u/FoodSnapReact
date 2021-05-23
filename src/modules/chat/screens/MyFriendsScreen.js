@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, TouchableOpacity, StatusBar, View, Text, FlatList, Image} from 'react-native';
+import {StyleSheet, TouchableOpacity, StatusBar, View, Text, FlatList, Image, SafeAreaView} from 'react-native';
 import {withNavigation} from 'react-navigation';
 import {connect} from 'react-redux';
 import BackButton from "../../../common/components/buttons/back_button";
@@ -7,6 +7,8 @@ import SearchBox from "../../../common/components/social/search/SearchBox";
 import {CHAT_HISTORY} from "../../../config/constants";
 import FastImage from "react-native-fast-image";
 import {translate} from "../../../common/services/translate";
+import {default as MaterialCommunityIcon} from 'react-native-vector-icons/MaterialCommunityIcons';
+import {default as MaterialIcon} from "react-native-vector-icons/MaterialIcons";
 
 class MyFriendsScreen extends React.Component {
     constructor(props) {
@@ -24,12 +26,14 @@ class MyFriendsScreen extends React.Component {
 
     render() {
         return (
-            <View style={styles.container}>
+            <SafeAreaView style={styles.container}>
                 <StatusBar backgroundColor="#ffffff" barStyle="dark-content"/>
-                {this.renderTitleBar()}
-                {this.renderSearchBar()}
-                {this.renderFriendList()}
-            </View>
+                <View style={{flex: 1, paddingHorizontal: 20}}>
+                    {this.renderTitleBar()}
+                    {this.renderSearchBar()}
+                    {this.renderFriendList()}
+                </View>
+            </SafeAreaView>
         );
     }
 
@@ -75,6 +79,7 @@ class MyFriendsScreen extends React.Component {
                     source={{uri: item.item.avatar}}
                     resizeMode={FastImage.resizeMode.contain}/>
                 <Text style={styles.name}>{item.item.name}</Text>
+                <MaterialCommunityIcon name={item.index % 3 === 0 ? "zodiac-sagittarius" : item.index % 3 === 1 ? "zodiac-leo" : "zodiac-libra"} size={18} color={'black'}/>
             </TouchableOpacity>
         );
     }
@@ -84,11 +89,11 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#ffffff',
-        paddingHorizontal: 20
     },
     titleContainer: {
         flexDirection: 'row',
         alignItems: 'center',
+        paddingVertical: 10
     },
     title: {
         alignSelf: 'center',
@@ -99,7 +104,7 @@ const styles = StyleSheet.create({
         fontWeight: 'bold'
     },
     searchContainer: {
-        marginTop: 20
+        flexDirection: 'row'
     },
     spaceRow: {
         width: 15
@@ -145,9 +150,9 @@ const styles = StyleSheet.create({
         marginRight: 20
     },
     name: {
-        flex: 1,
         fontSize: 14,
-        color: 'black'
+        color: 'black',
+        marginRight: 10
     },
     time: {
         fontSize: 12,

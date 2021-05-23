@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, TouchableOpacity, StatusBar, View, Text, FlatList, Image} from 'react-native';
+import {StyleSheet, TouchableOpacity, StatusBar, View, Text, FlatList, Image, SafeAreaView} from 'react-native';
 import {withNavigation} from 'react-navigation';
 import {connect} from 'react-redux';
 import BackButton from "../../../common/components/buttons/back_button";
@@ -26,13 +26,15 @@ class NewChatScreen extends React.Component {
     render() {
         const {isFriend} = this.state;
         return (
-            <View style={styles.container}>
+            <SafeAreaView style={styles.container}>
                 <StatusBar backgroundColor="#ffffff" barStyle="dark-content"/>
-                {this.renderTitleBar()}
-                {this.renderSearchBar()}
-                {this.renderTab()}
-                {isFriend ? this.renderFriendList() : this.renderSnapfooders()}
-            </View>
+                <View style={{flex: 1, paddingHorizontal: 20}}>
+                    {this.renderTitleBar()}
+                    {this.renderSearchBar()}
+                    {this.renderTab()}
+                    {isFriend ? this.renderFriendList() : this.renderSnapfooders()}
+                </View>
+            </SafeAreaView>
         );
     }
 
@@ -137,11 +139,11 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#ffffff',
-        paddingHorizontal: 20
     },
     titleContainer: {
         flexDirection: 'row',
         alignItems: 'center',
+        paddingVertical: 10
     },
     title: {
         alignSelf: 'center',
@@ -152,7 +154,7 @@ const styles = StyleSheet.create({
         fontWeight: 'bold'
     },
     searchContainer: {
-        marginTop: 20
+        flexDirection: 'row'
     },
     spaceRow: {
         width: 15
@@ -200,7 +202,8 @@ const styles = StyleSheet.create({
     name: {
         flex: 1,
         fontSize: 14,
-        color: 'black'
+        color: 'black',
+        fontWeight: 'bold'
     },
     time: {
         fontSize: 12,

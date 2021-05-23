@@ -1,7 +1,14 @@
-platform :ios, '9.0'
+platform :ios, '10.0'
+require_relative '../node_modules/react-native/scripts/react_native_pods'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
 target 'Snapfood' do
+  config = use_native_modules!
+  use_react_native!(:path => config["reactNativePath"])
+  rn_maps_path = '../../'
+
+  pod 'react-native-maps', path: rn_maps_path
+  pod 'react-native-google-maps', path: rn_maps_path
   # Pods for Snapfood
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
@@ -39,11 +46,14 @@ target 'Snapfood' do
   pod 'RNFirebase', :path => '../node_modules/react-native-firebase/ios'
 
   target 'SnapfoodTests' do
-    inherit! :search_paths
+    inherit! :complete
     # Pods for testing
   end
 
-  use_native_modules!
+  use_flipper!
+  post_install do |installer|
+    flipper_post_install(installer)
+  end
 end
 
 target 'Snapfood-tvOS' do

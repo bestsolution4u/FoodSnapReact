@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, TouchableOpacity, StatusBar, View, Text, FlatList, Image} from 'react-native';
+import {StyleSheet, TouchableOpacity, StatusBar, View, Text, FlatList, Image, SafeAreaView} from 'react-native';
 import {withNavigation} from 'react-navigation';
 import {connect} from 'react-redux';
 import {sendMessage, setMessagesSeen} from '../../../store/actions/chat';
@@ -69,12 +69,12 @@ class ChatScreen extends React.Component {
     render() {
         const {isChatList} = this.state;
         return (
-            <View style={styles.container}>
+            <SafeAreaView style={styles.container}>
                 <StatusBar backgroundColor="#ffffff" barStyle="dark-content"/>
                 {this.renderSearchbar()}
                 {this.renderTab()}
                 {isChatList ? this.renderChatHistory() : this.renderCallHistory()}
-            </View>
+            </SafeAreaView>
         );
     }
 
@@ -167,9 +167,9 @@ class ChatScreen extends React.Component {
                         <Text style={styles.message}>{item.item.lastMessage}</Text>
                         {
                             item.item.unreadCount > 0 &&
-                            <Text style={styles.unread}>
-                                {item.item.unreadCount}
-                            </Text>
+                            <View style={styles.unreadContainer}>
+                                <Text style={styles.unread}>{item.item.unreadCount}</Text>
+                            </View>
                         }
                     </View>
                 </View>
@@ -303,7 +303,8 @@ const styles = StyleSheet.create({
     listContainer: {
         flex: 1,
         width: '100%',
-        paddingHorizontal: 20
+        paddingHorizontal: 20,
+        paddingVertical: 10
     },
     avatar: {
         width: 30,
@@ -315,7 +316,8 @@ const styles = StyleSheet.create({
     name: {
         flex: 1,
         fontSize: 14,
-        color: 'black'
+        color: 'black',
+        fontWeight: 'bold'
     },
     time: {
         fontSize: 12,
@@ -326,15 +328,17 @@ const styles = StyleSheet.create({
         fontSize: 12,
         color: 'black'
     },
-    unread: {
+    unreadContainer: {
+        marginLeft: 20,
         width: 15,
         height: 15,
         borderRadius: 15,
-        backgroundColor: '#F55A00',
-        marginLeft: 20,
-        textAlign: 'center',
         justifyContent: 'center',
         alignItems: 'center',
+        backgroundColor: '#F55A00',
+    },
+    unread: {
+        textAlign: 'center',
         color: white,
         fontSize: 12
     },

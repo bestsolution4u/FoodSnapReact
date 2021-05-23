@@ -5,7 +5,7 @@ import {default as EvilIcon} from 'react-native-vector-icons/EvilIcons';
 const SearchBox = memo(({onChangeText, hint = 'Search'}) => {
     return (
         <View style={styles.container}>
-            <EvilIcon name="search" size={32} color={'#D5D4E0'}/>
+            <EvilIcon name="search" size={24} color={'#D5D4E0'}/>
             <TextInput
                 placeholder={hint}
                 placeholderTextColor='#D5D4E0'
@@ -25,14 +25,13 @@ const styles = StyleSheet.create({
         borderColor: '#E9E9F7',
         alignItems: 'center',
         justifyContent: 'center',
-        paddingVertical: 15,
         paddingHorizontal: 10
     },
     input: {
         margin: 0,
         flex: 1,
         color: 'black',
-        fontSize: 16,
+        fontSize: 12,
         height: 40
     }
 });

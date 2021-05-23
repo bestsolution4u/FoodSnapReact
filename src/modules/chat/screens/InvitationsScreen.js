@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, TouchableOpacity, StatusBar, View, Text, FlatList} from 'react-native';
+import {StyleSheet, TouchableOpacity, StatusBar, View, Text, FlatList, SafeAreaView} from 'react-native';
 import {withNavigation} from 'react-navigation';
 import {connect} from 'react-redux';
 import BackButton from "../../../common/components/buttons/back_button";
@@ -26,12 +26,14 @@ class InvitationsScreen extends React.Component {
     render() {
         const {isReceived} = this.state;
         return (
-            <View style={styles.container}>
+            <SafeAreaView style={styles.container}>
                 <StatusBar backgroundColor="#ffffff" barStyle="dark-content"/>
-                {this.renderTitleBar()}
-                {this.renderTab()}
-                {isReceived ? this.renderReceived() : this.renderSent()}
-            </View>
+                <View style={{flex: 1, paddingHorizontal: 20}}>
+                    {this.renderTitleBar()}
+                    {this.renderTab()}
+                    {isReceived ? this.renderReceived() : this.renderSent()}
+                </View>
+            </SafeAreaView>
         );
     }
 
@@ -134,11 +136,11 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#ffffff',
-        paddingHorizontal: 20
     },
     titleContainer: {
         flexDirection: 'row',
         alignItems: 'center',
+        paddingVertical: 10
     },
     title: {
         alignSelf: 'center',
