@@ -33,13 +33,10 @@ class SnapfoodMapScreen extends React.Component {
         };
     };
 
-    getMyLocation = async () => {
-        console.log('------------- location -----------');
+    getMyLocation = () => {
         getCurrentLocation().then(({ latitude, longitude }) => {
-                console.log(latitude, longitude);
                 this.setState({ latitude: latitude, longitude: longitude});
-            },
-            async (error) => {
+            }, (error) => {
                 console.log(error);
                 if (error.code === NO_PERMISSION) {
 
@@ -98,8 +95,6 @@ class SnapfoodMapScreen extends React.Component {
             />
         );
         const {latitude, longitude} = this.state;
-        console.log('========== Render Map ======');
-        console.log(this.state);
         return (
             <MapView
                 provider={PROVIDER_GOOGLE}

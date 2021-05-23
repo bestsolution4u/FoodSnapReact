@@ -8,7 +8,6 @@ import {CHAT_HISTORY} from "../../../config/constants";
 import FastImage from "react-native-fast-image";
 import {translate} from "../../../common/services/translate";
 import {default as MaterialCommunityIcon} from 'react-native-vector-icons/MaterialCommunityIcons';
-import {default as MaterialIcon} from "react-native-vector-icons/MaterialIcons";
 
 class MyFriendsScreen extends React.Component {
     constructor(props) {
