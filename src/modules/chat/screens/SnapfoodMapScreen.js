@@ -35,10 +35,9 @@ class SnapfoodMapScreen extends React.Component {
 
     getMyLocation = async () => {
         console.log('------------- location -----------');
-        getCurrentLocation().then(
-            async ({ latitude, longitude }) => {
+        getCurrentLocation().then(({ latitude, longitude }) => {
                 console.log(latitude, longitude);
-                await this.setState({ latitude: latitude, longitude: longitude});
+                this.setState({ latitude: latitude, longitude: longitude});
             },
             async (error) => {
                 console.log(error);
@@ -99,14 +98,22 @@ class SnapfoodMapScreen extends React.Component {
             />
         );
         const {latitude, longitude} = this.state;
+        console.log('========== Render Map ======');
+        console.log(this.state);
         return (
             <MapView
                 provider={PROVIDER_GOOGLE}
-                showsUserLocation={false}
-                showsMyLocationButton={false}
+                showsUserLocation={true}
+                showsMyLocationButton={true}
                 showsPointsOfInterest={false}
                 showsBuildings={false}
                 style={{width: '100%', height: '100%', position: 'absolute', top: 0, left: 0}}
+                region={{
+                    latitude: latitude,
+                    longitude: longitude,
+                    latitudeDelta: 0.1,
+                    longitudeDelta: 0.05,
+                }}
                 initialRegion={{
                     latitude: latitude,
                     longitude: longitude,
