@@ -35,7 +35,7 @@ export const SNAPFOODERS = [
     },
     {
         type: 'restaurant',
-        avatar: 'https://i.pravatar.cc/150?img=13',
+        avatar: 'https://i.pravatar.cc/150?img=32',
         name: 'Test Restaurant',
         latitude: 41.332257,
         longitude: 19.819349
