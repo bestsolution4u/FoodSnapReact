@@ -5,11 +5,8 @@ import {connect} from 'react-redux';
 import BackButton from "../../../common/components/buttons/back_button";
 import {default as MaterialIcon} from 'react-native-vector-icons/MaterialIcons';
 import RouteNames from "../../../routes/names";
-import MapView, {CalloutSubview, Callout, PROVIDER_GOOGLE} from "react-native-maps";
-import {getCurrentLocation, NO_PERMISSION, requestLocationPermission} from "../../../common/services/location";
-import Config from "../../../config";
-import alerts from "../../../common/services/alerts";
-import {translate} from "../../../common/services/translate";
+import MapView, {Callout, PROVIDER_GOOGLE} from "react-native-maps";
+import {getCurrentLocation, NO_PERMISSION} from "../../../common/services/location";
 import {SNAPFOODERS} from "../../../config/constants";
 import FastImage from "react-native-fast-image";
 
@@ -17,8 +14,8 @@ class SnapfoodMapScreen extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            latitude: 0,
-            longitude: 0
+            latitude: 41.3275,
+            longitude: 19.8187
         };
     }
 
