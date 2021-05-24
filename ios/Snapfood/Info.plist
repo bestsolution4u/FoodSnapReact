@@ -90,6 +90,19 @@
 		<string>Octicons.ttf</string>
 		<string>SimpleLineIcons.ttf</string>
 		<string>Zocial.ttf</string>
+		<string>Yellix-Black.ttf</string>
+		<string>Yellix-BlackItalic.ttf</string>
+		<string>Yellix-Bold.ttf</string>
+		<string>Yellix-BoldItalic.ttf</string>
+		<string>Yellix-ExtraBold.ttf</string>
+		<string>Yellix-ExtraBoldItalic.ttf</string>
+		<string>Yellix-Light.ttf</string>
+		<string>Yellix-LightItalic.ttf</string>
+		<string>Yellix-Medium.ttf</string>
+		<string>Yellix-MediumItalic.ttf</string>
+		<string>Yellix-Regular.ttf</string>
+		<string>Yellix-SemiBold.ttf</string>
+		<string>Yellix-Thin.ttf</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>

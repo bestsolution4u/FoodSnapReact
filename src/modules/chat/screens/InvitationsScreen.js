@@ -7,6 +7,7 @@ import {CALL_HISTORY, CHAT_HISTORY} from "../../../config/constants";
 import FastImage from "react-native-fast-image";
 import {default as EvilIcon} from 'react-native-vector-icons/EvilIcons';
 import {default as AntIcon} from 'react-native-vector-icons/AntDesign';
+import Theme from "../../../theme";
 
 class InvitationsScreen extends React.Component {
     constructor(props) {
@@ -148,7 +149,7 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         marginRight: 30,
         fontSize: 18,
-        fontWeight: 'bold'
+        fontFamily: Theme.fonts.bold
     },
     searchContainer: {
         marginTop: 20
@@ -175,7 +176,8 @@ const styles = StyleSheet.create({
         justifyContent: 'center'
     },
     tabText: {
-        fontSize: 14
+        fontSize: 14,
+        fontFamily: Theme.fonts.regular
     },
     chatContainer: {
         padding: 10,
@@ -199,21 +201,25 @@ const styles = StyleSheet.create({
     name: {
         flex: 1,
         fontSize: 14,
-        color: 'black'
+        color: 'black',
+        fontFamily: Theme.fonts.regular
     },
     time: {
         fontSize: 12,
         color: '#AAA8BF',
-        marginTop: 5
+        marginTop: 5,
+        fontFamily: Theme.fonts.regular
     },
     message: {
         flex: 1,
         fontSize: 12,
-        color: 'black'
+        color: 'black',
+        fontFamily: Theme.fonts.regular
     },
     invite: {
         color: '#AAA8BF',
-        fontSize: 14
+        fontSize: 14,
+        fontFamily: Theme.fonts.regular
     }
 });
 

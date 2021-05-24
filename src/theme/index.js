@@ -2,6 +2,25 @@ import { getStatusBarHeight } from 'react-native-status-bar-height';
 import Config from '../config';
 
 const Theme = {};
+
+// ------------------------------------------------------------
+// Fonts
+// ------------------------------------------------------------
+Theme.fonts = {
+	extraBold: "Yellix-ExtraBold",
+	bold: "Yellix-Bold",
+	semiBold: "Yellix-SemiBold",
+	light: "Yellix-Light",
+	medium: "Yellix-Medium",
+	regular: "Yellix-Regular",
+	thin: "Yellix-Thin",
+	black: "Yellix-Black",
+	italicExtraBold: "Yellix-ExtraBoldItalic",
+	italicBold: "Yellix-BoldItalic",
+	italicLight: "Yellix-LightItalic",
+	italicMedium: "Yellix-MediumItalic"
+};
+
 // ------------------------------------------------------------
 // Sizing
 // ------------------------------------------------------------

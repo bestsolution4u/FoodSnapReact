@@ -1,6 +1,7 @@
 import React, {memo} from 'react';
 import {TextInput, StyleSheet, View} from 'react-native';
 import {default as EvilIcon} from 'react-native-vector-icons/EvilIcons';
+import Theme from "../../../../theme";
 
 const SearchBox = memo(({onChangeText, hint = 'Search'}) => {
     return (
@@ -32,6 +33,7 @@ const styles = StyleSheet.create({
         flex: 1,
         color: 'black',
         fontSize: 12,
+        fontFamily: Theme.fonts.light,
         height: 40
     }
 });

@@ -7,6 +7,7 @@ import SearchBox from "../../../common/components/social/search/SearchBox";
 import {translate} from '../../../common/services/translate';
 import {CHAT_HISTORY} from "../../../config/constants";
 import FastImage from "react-native-fast-image";
+import Theme from "../../../theme";
 
 class SnapfoodersScreen extends React.Component {
     constructor(props) {
@@ -81,7 +82,7 @@ class SnapfoodersScreen extends React.Component {
                         <Text style={styles.name}>{item.item.name}</Text>
                     </View>
                 <TouchableOpacity>
-                    <Text style={{fontSize: 14, color: (index === 2 || index === 4 ? '#23CBD8' : 'grey')}}>{index === 2 || index === 4 ? 'Invite' : 'Already invited'}</Text>
+                    <Text style={{fontSize: 14, fontFamily: Theme.fonts.regular, color: (index === 2 || index === 4 ? '#23CBD8' : 'grey')}}>{index === 2 || index === 4 ? 'Invite' : 'Already invited'}</Text>
                 </TouchableOpacity>
             </TouchableOpacity>
         );
@@ -104,7 +105,7 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         marginRight: 30,
         fontSize: 18,
-        fontWeight: 'bold'
+        fontFamily: Theme.fonts.bold
     },
     searchContainer: {
         flexDirection: 'row'
@@ -131,7 +132,8 @@ const styles = StyleSheet.create({
         justifyContent: 'center'
     },
     tabText: {
-        fontSize: 14
+        fontSize: 14,
+        fontFamily: Theme.fonts.regular
     },
     chatContainer: {
         padding: 10,
@@ -155,20 +157,24 @@ const styles = StyleSheet.create({
     name: {
         flex: 1,
         fontSize: 14,
-        color: 'black'
+        color: 'black',
+        fontFamily: Theme.fonts.regular
     },
     time: {
         fontSize: 12,
-        color: '#AAA8BF'
+        color: '#AAA8BF',
+        fontFamily: Theme.fonts.regular
     },
     message: {
         flex: 1,
         fontSize: 12,
-        color: 'black'
+        color: 'black',
+        fontFamily: Theme.fonts.regular
     },
     invite: {
         color: '#23CBD8',
-        fontSize: 14
+        fontSize: 14,
+        fontFamily: Theme.fonts.regular
     }
 });
 

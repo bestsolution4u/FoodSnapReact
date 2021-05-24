@@ -17,6 +17,7 @@ import {
     MenuTrigger,
 } from 'react-native-popup-menu';
 import {isCameraPresent} from "react-native-device-info";
+import Theme from "../../../theme";
 
 class ChatScreen extends React.Component {
 
@@ -96,18 +97,18 @@ class ChatScreen extends React.Component {
                 </MenuTrigger>
                 <MenuOptions optionsContainerStyle={styles.popupContainer}>
                     <MenuOption onSelect={() => {this.props.navigation.push(RouteNames.InvitationsScreen);}} >
-                        <View style={{paddingHorizontal: 5, paddingBottom: 10, paddingTop: 5, alignItems: 'center', borderColor: '#F6F6F9', borderBottomWidth: 1, flexDirection: 'row'}}>
+                        <View style={{padding: 5, alignItems: 'center', borderColor: '#F6F6F9', borderBottomWidth: 1, flexDirection: 'row'}}>
                             <Text style={styles.popupText}>Invitations</Text>
-                            <Text style={{color: '#F55A00', fontSize: 10, marginLeft: 5}}>(3 new)</Text>
+                            <Text style={{color: '#F55A00', fontSize: 10, marginLeft: 5, fontFamily: Theme.fonts.regular}}>(3 new)</Text>
                         </View>
                     </MenuOption>
                     <MenuOption onSelect={() => {this.props.navigation.push(RouteNames.MyFriendsScreen);}} >
-                        <View style={{paddingHorizontal: 5, paddingBottom: 10, borderColor: '#F6F6F9', borderBottomWidth: 1, flexDirection: 'row'}}>
+                        <View style={{paddingHorizontal: 5, paddingBottom: 5, borderColor: '#F6F6F9', borderBottomWidth: 1, flexDirection: 'row'}}>
                             <Text style={styles.popupText}>My Friends</Text>
                         </View>
                     </MenuOption>
                     <MenuOption onSelect={() => {this.props.navigation.push(RouteNames.SnapfoodMapScreen);}}>
-                        <View style={{paddingHorizontal: 5, paddingBottom: 10, flexDirection: 'row'}}>
+                        <View style={{paddingHorizontal: 5, paddingBottom: 5, flexDirection: 'row'}}>
                             <Text style={styles.popupText}>Snapfood Map</Text>
                         </View>
                     </MenuOption>
@@ -219,7 +220,7 @@ class ChatScreen extends React.Component {
                         <FastImage source={lastCallIcon}
                                    resizeMode={'contain'}
                                    style={{width: 10, height: 10, marginRight: 5}}/>
-                        <Text style={{color: lastCallColor, fontSize: 12}}>{lastCallText}</Text>
+                        <Text style={{color: lastCallColor, fontSize: 12, fontFamily: Theme.fonts.regular}}>{lastCallText}</Text>
                     </View>
                 </View>
             </TouchableOpacity>
@@ -292,7 +293,8 @@ const styles = StyleSheet.create({
         justifyContent: 'center'
     },
     tabText: {
-        fontSize: 14
+        fontSize: 14,
+        fontFamily: Theme.fonts.regular
     },
     chatContainer: {
         padding: 10,
@@ -317,16 +319,18 @@ const styles = StyleSheet.create({
         flex: 1,
         fontSize: 14,
         color: 'black',
-        fontWeight: 'bold'
+        fontFamily: Theme.fonts.bold
     },
     time: {
         fontSize: 12,
-        color: '#AAA8BF'
+        color: '#AAA8BF',
+        fontFamily: Theme.fonts.regular
     },
     message: {
         flex: 1,
         fontSize: 12,
-        color: 'black'
+        color: 'black',
+        fontFamily: Theme.fonts.regular
     },
     unreadContainer: {
         marginLeft: 20,
@@ -354,7 +358,8 @@ const styles = StyleSheet.create({
     },
     popupText: {
         color: '#222222',
-        fontSize: 14
+        fontSize: 14,
+        fontFamily: Theme.fonts.regular
     },
 });
 

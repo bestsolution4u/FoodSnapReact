@@ -12,8 +12,8 @@ const BackButton = memo(({onPress}) => {
 
 const styles = StyleSheet.create({
     container: {
-        width: 30,
-        height: 30,
+        width: 36,
+        height: 36,
         borderRadius: 8,
         borderColor: 'white',
         alignItems: 'center',

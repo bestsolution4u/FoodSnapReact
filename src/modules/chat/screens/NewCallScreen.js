@@ -160,7 +160,7 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         marginRight: 30,
         fontSize: 18,
-        fontWeight: 'bold'
+        fontFamily: Theme.fonts.bold
     },
     searchContainer: {
         flexDirection: 'row'
@@ -187,7 +187,8 @@ const styles = StyleSheet.create({
         justifyContent: 'center'
     },
     tabText: {
-        fontSize: 14
+        fontSize: 14,
+        fontFamily: Theme.fonts.regular
     },
     chatContainer: {
         padding: 10,
@@ -212,20 +213,23 @@ const styles = StyleSheet.create({
         flex: 1,
         fontSize: 14,
         color: 'black',
-        fontWeight: 'bold'
+        fontFamily: Theme.fonts.bold
     },
     time: {
         fontSize: 12,
-        color: '#AAA8BF'
+        color: '#AAA8BF',
+        fontFamily: Theme.fonts.regular
     },
     message: {
         flex: 1,
         fontSize: 12,
-        color: 'black'
+        color: 'black',
+        fontFamily: Theme.fonts.regular
     },
     invite: {
         color: '#23CBD8',
-        fontSize: 14
+        fontSize: 14,
+        fontFamily: Theme.fonts.regular
     }
 });
 
